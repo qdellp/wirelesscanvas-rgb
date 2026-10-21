@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Services no longer stop after long idle periods. Incomplete replies from the L-Wireless receiver are treated as interference and skipped (as upstream does) instead of closing USB after three in a row; fan speed commands, cooling and lighting keep running. The link closes only on a USB error or after about 2 minutes without a valid reply, and reconnection is retried without a limit (every 5 s for the first minute, then every 15 s).
+- Connecting tolerates single incomplete replies (three good polls out of up to eight).
+- The pump coolant temperature is no longer treated as part of the pump address, so the pump is not briefly blocked every time the temperature changes.
+
 ## 0.13.0 alpha — first public release
 
 Alpha build for early testing: expect bugs. All feedback is welcome.

@@ -37,7 +37,9 @@ public record WirelessGroup(string Mac, string Master, byte Channel, byte Slot, 
         int fans = right ? Math.Min(record[19] - 10, 4) : record[19];
         // On the wire slot 0 is the rightmost (upstream reverse_fan_order); in the app the fan number is the order RGB.
         if (right && fans > 1) { Array.Reverse(rpm, 0, fans); Array.Reverse(pwm, 0, fans); }
-        return new(Convert.ToHexString(record[..6]), Convert.ToHexString(record[6..12]), record[12], record[13], fans, record[24..28].ToArray(), record[20..24].ToArray(), (record[28] & 0x40) != 0, record[40], record[18], listIndex)
+        // For the pump byte 27 is the coolant temperature, not a type: otherwise every degree looks like "group changed".
+        byte[] types = record[24..28].ToArray(); if (record[18] == 10) types[3] = 0;
+        return new(Convert.ToHexString(record[..6]), Convert.ToHexString(record[6..12]), record[12], record[13], fans, types, record[20..24].ToArray(), (record[28] & 0x40) != 0, record[40], record[18], listIndex)
         {
             Rpm = rpm, Pwm = pwm, PwmLine = (record[28] & 0x20) != 0, RightAttach = right,
             Coolant = record[18] == 10 && record[27] > 0 ? record[27] : null,

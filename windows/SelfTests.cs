@@ -1245,6 +1245,19 @@ internal static class SelfTests
             Check(Math.Abs(Gradient.WorldPoint(p, p.Fans[0], 5).X - 105) < 1e-9, "26-point TL calibration not applied.");
             p.LedOverrides[$"{tl.Mac}/0"] = [.. Enumerable.Range(0, 27).Select(i => new LedPoint(i, 0))]; Reject(p.Validate);
         });
+        Test("Long running: poll interference does not drop the link, unlimited reconnects, pump coolant does not change its address", () =>
+        {
+            Check(Controller.PollFailureLimit * Controller.HeartbeatInterval >= 100_000, "Short poll interference drops the link.");
+            Check(!Controller.ReconnectDue(0) && !Controller.ReconnectDue(24) && Controller.ReconnectDue(25) && Controller.ReconnectDue(300), "First minute: one attempt every 5 s.");
+            Check(!Controller.ReconnectDue(325) && Controller.ReconnectDue(375) && Controller.ReconnectDue(75 * 100_000), "After a minute: every 15 s, no attempt limit.");
+            Check(Enumerable.Range(1, 18_000).Count(Controller.ReconnectDue) >= 230, "An hour offline must give at least two hundred attempts.");
+            byte[] record = new byte[42]; Convert.FromHexString("E684CAE566E1").CopyTo(record, 0); Convert.FromHexString("282EDB6232DC").CopyTo(record, 6);
+            record[12] = 8; record[13] = 6; record[18] = 10; record[24] = 1; record[27] = 31; record[41] = 0x1C;
+            var warm = WirelessGroup.Parse(record)!; record[27] = 32; var warmer = WirelessGroup.Parse(record)!;
+            Check(warm.Coolant == 31 && warmer.Coolant == 32 && warm.Types.SequenceEqual(warmer.Types) && warm.Types[0] == 1 && warm.Types[3] == 0, "Coolant temperature leaked into the pump types.");
+            record[18] = 0; record[19] = 3; record[24] = 21; record[25] = 21; record[26] = 21; record[27] = 21;
+            Check(WirelessGroup.Parse(record)!.Types.SequenceEqual(new byte[] { 21, 21, 21, 21 }), "Fans lost their fourth type.");
+        });
         Test("Cooling curve: smoothing, immediate increase, decrease with hysteresis, minimum, lost sensor → failsafe", () =>
         {
             var s = new CoolingSettings { Enabled = true, MinPercent = 25, FailsafePercent = 100, Hysteresis = 2 };
@@ -1645,7 +1658,7 @@ internal static class SelfTests
             string old = L10n.Language;
             try
             {
-                Check(L10n.Entries.Count == 658, "Catalog incomplete.");
+                Check(L10n.Entries.Count == 659, "Catalog incomplete.");
                 foreach (var entry in L10n.Entries)
                 {
                     Check(entry.Value.Length == 4 && entry.Value.All(s => !string.IsNullOrWhiteSpace(s)) && !System.Text.RegularExpressions.Regex.IsMatch(entry.Key, "[А-Яа-яЁё]") && entry.Value.Skip(1).All(s => !System.Text.RegularExpressions.Regex.IsMatch(s, "[А-Яа-яЁё]")), "Incomplete translation: " + entry.Key);

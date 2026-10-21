@@ -52,6 +52,14 @@ public sealed class Controller : IDisposable
     internal static bool AwaitingConfirmation(IReadOnlyDictionary<string, RgbUpload> desired, IReadOnlyList<WirelessGroup> groups, IReadOnlyDictionary<string, (long CheckAt, int Attempts)> watch) =>
         desired.Any(d => !groups.Any(g => g.Mac == d.Key && !g.MotherboardSync && g.Effect.SequenceEqual(d.Value.Effect)) && (!watch.TryGetValue(d.Key, out var state) || state.Attempts < ResyncAttempts));
     int pollFailures;
+    /// <summary>
+    /// An incomplete receiver reply to a poll is interference, not a disconnect (upstream simply skips such a poll).
+    /// The link closes only on a USB error or if the receiver has not answered correctly for ~2 minutes in a row;
+    /// speed commands and the service heartbeat keep going out over TX the whole time.
+    /// </summary>
+    public const int PollFailureLimit = 150;
+    /// <summary>Reconnect with no attempt limit: every 5 s for the first minute, then every 15 s.</summary>
+    internal static bool ReconnectDue(int idleTicks) => idleTicks > 0 && idleTicks % (idleTicks <= 300 ? 25 : 75) == 0;
     readonly Dictionary<string, byte[]> pending = [];
     readonly Dictionary<string, byte[]> lastFrames = [];
     readonly Dictionary<string, (string Address, int Count)> sightings = [];
@@ -267,7 +275,7 @@ public sealed class Controller : IDisposable
             EnsureNotIdentifying();
             if (tx != null)
             {
-                for (int sample = 0; sample < 3; sample++) { Poll(); if (sample < 2) Thread.Sleep(100); }
+                SamplePolls();
                 RecoverRadioConflicts(waitForStable: true);
                 return;
             }
@@ -286,7 +294,7 @@ public sealed class Controller : IDisposable
                     radioDelay ??= new RadioDelay();
                     pages = 1; lastRf = 0; lastTarget = ""; active = false;
                     sightings.Clear(); QueryMaster();
-                    for (int sample = 0; sample < 3; sample++) { Poll(); if (sample < 2) Thread.Sleep(100); }
+                    SamplePolls();
                     RecoverRadioConflicts(waitForStable: true);
                     Status = L10n.F((FormattableString)$"Connected: {Groups.Count(g => g.Supported)} wireless fan groups, MAC {master}") + (Groups.Any(g => g.IsHydro) ? L10n.T("; wireless pump found") : "");
                     Log.Write(L10n.F((FormattableString)$"{Status}; high-resolution timer: {radioDelay.HighResolution}"));
@@ -569,6 +577,16 @@ public sealed class Controller : IDisposable
             watch[mac] = (Environment.TickCount64 + ResyncDelay, state.Attempts + 1);
         }
     }
+    /// <summary>Three successful polls (addresses are confirmed by three sightings) out of at most eight attempts.</summary>
+    void SamplePolls()
+    {
+        int good = 0;
+        for (int attempt = 0; attempt < 8 && good < 3; attempt++)
+        {
+            if (attempt > 0) Thread.Sleep(100);
+            try { Poll(); good++; } catch (PollException) when (attempt < 7 || good > 0) { }
+        }
+    }
     /// <summary>Poll with one retry: a single incomplete receiver reply does not abort applying.</summary>
     void PollRetry()
     {
@@ -695,7 +713,7 @@ public sealed class Controller : IDisposable
                 {
                     if (tx == null)
                     {
-                        if (++reconnects % 25 == 0 && reconnects <= 125 && !VendorRunning())
+                        if (ReconnectDue(++reconnects) && !VendorRunning())
                         {
                             Connect();
                             if (recoveryProfile != null && recoveryProfile.Fans.Where(f => f.Enabled).All(f => Groups.Any(g => g.Mac == f.Group && g.Supported && f.Fan < g.Fans)))
@@ -717,10 +735,14 @@ public sealed class Controller : IDisposable
                     {
                         if (VendorRunning()) throw new IOException(L10n.T("L-Connect 3 started; USB released to avoid conflicts."));
                         Heartbeat(); // keeps its own 0.8 s interval
-                        // One or two incomplete replies in a row are interference, not a disconnect: the link and uploaded cycles are kept.
+                        // Incomplete replies are interference, not a disconnect: the link, speed commands and uploaded cycles are kept.
                         bool polled = true;
-                        try { Poll(); pollFailures = 0; }
-                        catch (PollException e) when (++pollFailures < 3) { polled = false; Log.Write(L10n.F((FormattableString)$"{e.Message} Poll {pollFailures}/3; keeping connection.")); }
+                        try { Poll(); if (pollFailures > 0) Log.Write(L10n.F((FormattableString)$"Polling recovered after incomplete replies: {pollFailures}.")); pollFailures = 0; }
+                        catch (PollException e) when (++pollFailures < PollFailureLimit)
+                        {
+                            polled = false;
+                            if (pollFailures is 1 or 10 || pollFailures % 50 == 0) Log.Write(L10n.F((FormattableString)$"{e.Message} In a row: {pollFailures}; connection and speed commands are kept."));
+                        }
                         if (polled) RecoverRadioConflicts(waitForStable: false);
                         if (polled && desired.Count > 0 && identification == null)
                         {

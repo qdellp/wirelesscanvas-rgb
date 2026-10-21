@@ -407,11 +407,11 @@
     "L-Connect 3 iniciado; USB liberado para evitar conflictos.",
     "L-Connect 3 iniciado; USB liberado para evitar conflitos."
   ],
-  "{0} Poll {1}/3; keeping connection.": [
-    "{0} Опрос {1}/3, соединение сохраняется.",
-    "{0} 轮询 {1}/3；保持连接。",
-    "{0} Consulta {1}/3; se mantiene la conexión.",
-    "{0} Consulta {1}/3; mantendo a conexão."
+  "{0} In a row: {1}; connection and speed commands are kept.": [
+    "{0} Подряд: {1}; соединение и команды скорости сохраняются.",
+    "{0} 连续：{1}；保持连接和转速命令。",
+    "{0} Seguidas: {1}; se mantienen la conexión y los comandos de velocidad.",
+    "{0} Seguidas: {1}; a conexão e os comandos de velocidade são mantidos."
   ],
   "RGB: groups confirmed {0}/{1}. ": [
     "RGB: подтверждено групп {0}/{1}. ",
@@ -3946,5 +3946,11 @@
     "未知风扇型号：不设置转速。",
     "Modelo de ventilador desconocido: no se ajusta la velocidad.",
     "Modelo de ventoinha desconhecido: a velocidade não é definida."
+  ],
+  "Polling recovered after incomplete replies: {0}.": [
+    "Опрос восстановился после неполных ответов: {0}.",
+    "不完整回复后轮询已恢复：{0}。",
+    "El sondeo se recuperó tras respuestas incompletas: {0}.",
+    "A consulta se recuperou após respostas incompletas: {0}."
   ]
 }
