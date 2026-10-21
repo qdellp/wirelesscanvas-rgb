@@ -10,8 +10,6 @@ WirelessCanvas RGB — приложение с открытым кодом дл�
 
 > **Неофициальный проект.** Не связан с LIAN LI и не поддерживается ею. LIAN LI, L-Connect, UNI FAN и SL Wireless — товарные знаки их владельцев; здесь они используются только для описания совместимого оборудования.
 
-**[⬇ Скачать WirelessCanvasRGB.exe (0.13.0 alpha, Windows x64)](https://github.com/qdellp/wirelesscanvas-rgb/releases/download/v0.13.0-alpha/WirelessCanvasRGB-0.13.0-win-x64.exe)**
-
 English version: [README.md](README.md)
 
 > **Альфа-версия для раннего тестирования.** В ней может быть много ошибок, а между версиями многое может меняться. Мы рады любой обратной связи и рассмотрим каждый отзыв: сообщения об ошибках, отчёты о совместимости, идеи и критику. Пишите в [Issues](../../issues/new/choose).
