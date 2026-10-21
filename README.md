@@ -4,7 +4,7 @@
 
 **Your whole case. One animated canvas.**
 
-**[⬇ Download WirelessCanvasRGB.exe (0.13.0 alpha, Windows x64)](https://github.com/qdellp/wirelesscanvas-rgb/releases/download/v0.13.0-alpha/WirelessCanvasRGB-0.13.0-win-x64.exe)**
+**[⬇ Download WirelessCanvasRGB.exe (0.13.1 alpha, Windows x64)](https://github.com/qdellp/wirelesscanvas-rgb/releases/download/v0.13.1-alpha/WirelessCanvasRGB-0.13.1-win-x64.exe)**
 
 WirelessCanvas RGB is an open-source Windows app for LIAN LI **wireless** fans. Place your fans on a canvas that matches your case and run one animation across all of them at once: gradients and shader effects such as radar, fire, waves, plasma, lava and starfall. The same animation can also drive the pump ring, OpenRGB devices (RAM, GPU, keyboard) and the LCD screens.
 
@@ -22,7 +22,7 @@ WirelessCanvas RGB is an open-source Windows app for LIAN LI **wireless** fans. 
 | Fan types | **Wireless fans only.** Wired fans and wired controllers are not supported |
 | Other wireless families | TL, SL-INF, CL, SL V4 and P28 Wireless are recognized from upstream data, but **not tested** on hardware |
 | OS | Windows 11 x64 (tested). Windows 10 x64 should work but is untested |
-| Version | 0.13.0 alpha |
+| Version | 0.13.1 alpha |
 
 Pump, OpenRGB, keyboard, cooling and LCD features worked on the author's system, but they are experimental. Check your temperatures after you change anything related to cooling.
 

@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.13.1 alpha — services keep running
 
 - Services no longer stop after long idle periods. Incomplete replies from the L-Wireless receiver are treated as interference and skipped (as upstream does) instead of closing USB after three in a row; fan speed commands, cooling and lighting keep running. The link closes only on a USB error or after about 2 minutes without a valid reply, and reconnection is retried without a limit (every 5 s for the first minute, then every 15 s).
 - Connecting tolerates single incomplete replies (three good polls out of up to eight).

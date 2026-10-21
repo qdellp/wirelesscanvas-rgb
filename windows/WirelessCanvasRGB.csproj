@@ -12,7 +12,7 @@
     <Authors>Sterax</Authors>
     <Copyright>Copyright (c) 2026 Sterax; based on lian-li-linux, Copyright (c) 2026 sgtaziz</Copyright>
     <RepositoryUrl>https://github.com/qdellp/wirelesscanvas-rgb</RepositoryUrl>
-    <Version>0.13.0</Version>
+    <Version>0.13.1</Version>
     <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
   </PropertyGroup>
   <ItemGroup>
