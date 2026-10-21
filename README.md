@@ -1,5 +1,7 @@
 ﻿# WirelessCanvas RGB
 
+<img width="1258" height="847" alt="image" src="https://github.com/user-attachments/assets/651bc6ba-d1b8-4c58-8123-1fc14d970664" />
+
 **Your whole case. One animated canvas.**
 
 WirelessCanvas RGB is an open-source Windows app for LIAN LI **wireless** fans. Place your fans on a canvas that matches your case and run one animation across all of them at once: gradients and shader effects such as radar, fire, waves, plasma, lava and starfall. The same animation can also drive the pump ring, OpenRGB devices (RAM, GPU, keyboard) and the LCD screens.
