@@ -25,6 +25,13 @@ try {
     $releaseVersion = [string]$projectXml.Project.PropertyGroup.Version
     $archivePath = "dist/WirelessCanvasRGB-$releaseVersion-win-x64.zip"
     Compress-Archive -Path "$output/*" -DestinationPath $archivePath -Force
-    Get-FileHash -LiteralPath $archivePath -Algorithm SHA256 | Format-List
+    # Standalone exe: native DLLs and license texts are bundled and extracted to %TEMP%\.net on first run.
+    $standalone = 'dist/standalone'
+    if (Test-Path -LiteralPath $standalone) { Remove-Item -LiteralPath $standalone -Recurse -Force }
+    dotnet publish windows/WirelessCanvasRGB.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:IncludeAllContentForSelfExtract=true -p:UseSharedCompilation=false -p:DebugType=None -o $standalone
+    if ($LASTEXITCODE -ne 0) { throw 'Standalone publish failed.' }
+    $exePath = "dist/WirelessCanvasRGB-$releaseVersion-win-x64.exe"
+    Copy-Item -LiteralPath "$standalone/WirelessCanvasRGB.exe" -Destination $exePath -Force
+    Get-FileHash -LiteralPath $archivePath, $exePath -Algorithm SHA256 | Format-List
 }
 finally { Pop-Location }

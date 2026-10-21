@@ -4,9 +4,13 @@
 
 **Весь корпус — один анимированный холст.**
 
+**[⬇ Скачать WirelessCanvasRGB.exe (0.13.0 alpha, Windows x64)](https://github.com/qdellp/wirelesscanvas-rgb/releases/download/v0.13.0-alpha/WirelessCanvasRGB-0.13.0-win-x64.exe)**
+
 WirelessCanvas RGB — приложение с открытым кодом для Windows, которое управляет подсветкой **беспроводных** вентиляторов LIAN LI. Вентиляторы расставляются на холсте так же, как они стоят в корпусе, и одна анимация проходит через все сразу: градиенты и эффекты-шейдеры (радар, пламя, волны, плазма, лава, звездопад и другие). Эта же анимация может идти на кольцо помпы, устройства OpenRGB (память, видеокарта, клавиатура) и LCD-экраны.
 
 > **Неофициальный проект.** Не связан с LIAN LI и не поддерживается ею. LIAN LI, L-Connect, UNI FAN и SL Wireless — товарные знаки их владельцев; здесь они используются только для описания совместимого оборудования.
+
+**[⬇ Скачать WirelessCanvasRGB.exe (0.13.0 alpha, Windows x64)](https://github.com/qdellp/wirelesscanvas-rgb/releases/download/v0.13.0-alpha/WirelessCanvasRGB-0.13.0-win-x64.exe)**
 
 English version: [README.md](README.md)
 

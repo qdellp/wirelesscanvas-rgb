@@ -19,6 +19,9 @@
     <EmbeddedResource Include="Translations.json" />
     <None Include="native/tinyuz.dll" TargetPath="tinyuz.dll" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
     <None Include="native/tuz-dec.dll" TargetPath="tuz-dec.dll" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <!-- License texts travel inside the standalone exe too. -->
+    <None Include="../LICENSE;../THIRD-PARTY-NOTICES.md" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="../LICENSES/*" Link="LICENSES/%(Filename)%(Extension)" CopyToPublishDirectory="PreserveNewest" />
     <None Include="../upstream/crates/lianli-devices/tests/fixtures/*.yuz" Link="test-fixtures/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
   <ItemGroup>
