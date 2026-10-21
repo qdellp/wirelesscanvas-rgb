@@ -1,0 +1,3950 @@
+{
+  "Right · LCD": [
+    "Справа · LCD",
+    "右侧 · LCD",
+    "Derecha · LCD",
+    "Direita · LCD"
+  ],
+  "Left": [
+    "Слева",
+    "左侧",
+    "Izquierda",
+    "Esquerda"
+  ],
+  "Bottom": [
+    "Снизу",
+    "底部",
+    "Abajo",
+    "Embaixo"
+  ],
+  "Top": [
+    "Сверху",
+    "顶部",
+    "Arriba",
+    "Em cima"
+  ],
+  "Choose color": [
+    "Выбор цвета",
+    "选择颜色",
+    "Elegir color",
+    "Escolher cor"
+  ],
+  "Square: color. Bottom bar: hue.": [
+    "Квадрат — цвет, нижняя полоса — оттенок.",
+    "方块：颜色。下方色条：色相。",
+    "Cuadrado: color. Barra inferior: tono.",
+    "Quadrado: cor. Barra inferior: matiz."
+  ],
+  "Select": [
+    "Выбрать",
+    "选择",
+    "Seleccionar",
+    "Selecionar"
+  ],
+  "Cancel": [
+    "Отмена",
+    "取消",
+    "Cancelar",
+    "Cancelar"
+  ],
+  "Pump {0}: RGB via L-Wireless": [
+    "Помпа {0}: RGB по радио L-Wireless",
+    "水泵 {0}：通过 L-Wireless 控制 RGB",
+    "Bomba {0}: RGB por L-Wireless",
+    "Bomba {0}: RGB por L-Wireless"
+  ],
+  "Multiple pumps are paired; pump RGB skipped.": [
+    "К L-Wireless привязано несколько помп — RGB помпы пропущен.",
+    "已配对多个水泵；已跳过水泵 RGB。",
+    "Hay varias bombas vinculadas; se omite su RGB.",
+    "Há várias bombas emparelhadas; RGB da bomba ignorado."
+  ],
+  "Pump {0} has {1} attached fans; LED layout is unverified. RGB skipped.": [
+    "Помпа {0} привязана к L-Wireless с {1} вент. на ней; такая раскладка LED не подтверждена — RGB помпы пропущен.",
+    "水泵 {0} 连接了 {1} 个风扇；LED 布局未验证，已跳过 RGB。",
+    "La bomba {0} tiene {1} ventiladores; distribución LED sin verificar. RGB omitido.",
+    "A bomba {0} tem {1} ventoinhas; disposição LED não verificada. RGB ignorado."
+  ],
+  "Pump: RGB via USB": [
+    "Помпа: RGB по USB",
+    "水泵：通过 USB 控制 RGB",
+    "Bomba: RGB por USB",
+    "Bomba: RGB por USB"
+  ],
+  "Incomplete or invalid group list response.": [
+    "Неполный или неверный ответ списка групп.",
+    "设备组列表响应不完整或无效。",
+    "Respuesta de grupos incompleta o inválida.",
+    "Resposta de grupos incompleta ou inválida."
+  ],
+  "Device address for speed control is unconfirmed.": [
+    "Номер устройства для команды скорости не подтверждён.",
+    "转速控制的设备地址未确认。",
+    "Dirección del dispositivo sin confirmar para controlar la velocidad.",
+    "Endereço do dispositivo não confirmado para controlar a velocidade."
+  ],
+  "{0}: disconnected": [
+    "{0}: нет связи",
+    "{0}：未连接",
+    "{0}: desconectado",
+    "{0}: desconectado"
+  ],
+  "{0}: awaiting confirmation": [
+    "{0}: ждём подтверждения",
+    "{0}：等待确认",
+    "{0}: esperando confirmación",
+    "{0}: aguardando confirmação"
+  ],
+  "Speed control groups: {0}": [
+    "Скорость задаётся для групп: {0}",
+    "转速控制组：{0}",
+    "Grupos con control de velocidad: {0}",
+    "Grupos com controle de velocidade: {0}"
+  ],
+  "Pump address for speed control is unconfirmed.": [
+    "Адрес помпы для команды насоса не подтверждён.",
+    "水泵转速控制地址未确认。",
+    "Dirección de la bomba sin confirmar.",
+    "Endereço da bomba não confirmado."
+  ],
+  "pump not found via radio": [
+    "помпа не видна по радио",
+    "无线连接中未找到水泵",
+    "bomba no encontrada por radio",
+    "bomba não encontrada por rádio"
+  ],
+  "Pump {0}: wireless theme, command {1}": [
+    "Помпа {0}: радио-тема, команда {1}",
+    "水泵 {0}：无线主题，命令 {1}",
+    "Bomba {0}: tema inalámbrico, comando {1}",
+    "Bomba {0}: tema sem fio, comando {1}"
+  ],
+  "pump: fixed {0} RPM, actual {1}": [
+    "насос: постоянно {0} об/мин, сейчас {1}",
+    "水泵：固定 {0} RPM，实际 {1}",
+    "bomba: fija a {0} RPM, actual {1}",
+    "bomba: fixa em {0} RPM, atual {1}"
+  ],
+  " · no wireless theme (app controls screen)": [
+    " · без радио-темы (экран ведёт программа)",
+    " · 无无线主题（应用控制屏幕）",
+    " · sin tema inalámbrico (pantalla controlada por la aplicación)",
+    " · sem tema sem fio (tela controlada pelo aplicativo)"
+  ],
+  " · awaiting pump confirmation": [
+    " · ждём подтверждения помпы",
+    " · 等待水泵确认",
+    " · esperando confirmación de la bomba",
+    " · aguardando confirmação da bomba"
+  ],
+  "Hardware disconnected": [
+    "Оборудование не подключено",
+    "硬件未连接",
+    "Hardware desconectado",
+    "Hardware desconectado"
+  ],
+  "L-Connect 3 detected. Close its window and background processes before connecting. Services are not stopped automatically.": [
+    "Обнаружен L-Connect 3. Закройте его интерфейс и фоновые процессы перед подключением. Службы приложение само не останавливает.",
+    "检测到 L-Connect 3。连接前请关闭其窗口和后台进程。应用不会自动停止服务。",
+    "L-Connect 3 detectado. Cierre su ventana y procesos en segundo plano antes de conectar. Los servicios no se detienen automáticamente.",
+    "L-Connect 3 detectado. Feche a janela e os processos em segundo plano antes de conectar. Os serviços não são interrompidos automaticamente."
+  ],
+  "Multiple controllers found. Connect one L-Wireless Controller to select TX/RX.": [
+    "Найдено несколько контроллеров. Оставьте один L-Wireless Controller для однозначного выбора TX/RX.",
+    "发现多个控制器。请仅连接一个 L-Wireless 控制器以选择 TX/RX。",
+    "Se encontraron varios controladores. Conecte solo un L-Wireless Controller para seleccionar TX/RX.",
+    "Vários controladores encontrados. Conecte apenas um L-Wireless Controller para selecionar TX/RX."
+  ],
+  "Connected: {0} wireless fan groups, MAC {1}": [
+    "Подключено: беспроводных групп вентиляторов {0}, MAC {1}",
+    "已连接：{0} 个无线风扇组，MAC {1}",
+    "Conectado: {0} grupos de ventiladores inalámbricos, MAC {1}",
+    "Conectado: {0} grupos de ventoinhas sem fio, MAC {1}"
+  ],
+  "; wireless pump found": [
+    "; помпа по радио найдена",
+    "；已找到无线水泵",
+    "; bomba inalámbrica encontrada",
+    "; bomba sem fio encontrada"
+  ],
+  "{0}; high-resolution timer: {1}": [
+    "{0}; точный таймер: {1}",
+    "{0}；高精度计时器：{1}",
+    "{0}; temporizador preciso: {1}",
+    "{0}; temporizador preciso: {1}"
+  ],
+  "TX/RX not found.": [
+    "TX/RX не найдены.",
+    "未找到 TX/RX。",
+    "TX/RX no encontrados.",
+    "TX/RX não encontrados."
+  ],
+  "{0}: driver {1}, interfaces {2}": [
+    "{0}: драйвер {1}, интерфейсов {2}",
+    "{0}：驱动 {1}，接口 {2}",
+    "{0}: controlador {1}, interfaces {2}",
+    "{0}: driver {1}, interfaces {2}"
+  ],
+  "No WinUSB TX/RX pair available. {0} Save diagnostics. Drivers are not modified.": [
+    "Нет доступной пары WinUSB TX/RX. {0} Сохраните диагностику. Драйверы приложение не меняет.",
+    "无可用的 WinUSB TX/RX。{0} 请保存诊断信息。驱动程序未修改。",
+    "No hay par WinUSB TX/RX disponible. {0} Guarde el diagnóstico. No se modifican los controladores.",
+    "Nenhum par WinUSB TX/RX disponível. {0} Salve o diagnóstico. Os drivers não são modificados."
+  ],
+  "Invalid MAC query response. Reconnect the controller and retry.": [
+    "Контроллер не ответил корректно на запрос MAC. Переподключите контроллер и повторите.",
+    "MAC 查询响应无效。请重新连接控制器后重试。",
+    "Respuesta MAC inválida. Reconecte el controlador y reintente.",
+    "Resposta MAC inválida. Reconecte o controlador e tente novamente."
+  ],
+  "Group type or radio address unconfirmed. Transfer blocked.": [
+    "Тип группы или её радиоадрес не подтверждён. Передача заблокирована.",
+    "设备组类型或无线地址未确认，已阻止传输。",
+    "Tipo de grupo o dirección de radio sin confirmar. Transferencia bloqueada.",
+    "Tipo de grupo ou endereço de rádio não confirmado. Transferência bloqueada."
+  ],
+  "L-Wireless LCD video mode not enabled: ": [
+    "Видео-режим L-Wireless для LCD не включён: ",
+    "L-Wireless LCD 视频模式未启用：",
+    "Modo de vídeo LCD L-Wireless no activado: ",
+    "Modo de vídeo LCD L-Wireless não ativado: "
+  ],
+  "RX group index unconfirmed; cannot disable motherboard RGB sync.": [
+    "Индекс группы RX не подтверждён перед отключением RGB-синхронизации.",
+    "RX 组索引未确认，无法关闭主板 RGB 同步。",
+    "Índice RX sin confirmar; no se puede desactivar la sincronización RGB de la placa.",
+    "Índice RX não confirmado; não é possível desativar a sincronização RGB da placa."
+  ],
+  "Motherboard RGB sync disable was not confirmed.": [
+    "Нет подтверждения отключения синхронизации RGB с платой.",
+    "主板 RGB 同步关闭未获确认。",
+    "No se confirmó la desactivación de la sincronización RGB.",
+    "A desativação da sincronização RGB não foi confirmada."
+  ],
+  "Group disappeared before RGB upload.": [
+    "Группа исчезла перед передачей RGB.",
+    "RGB 上传前设备组已消失。",
+    "El grupo desapareció antes de cargar RGB.",
+    "O grupo desapareceu antes de carregar o RGB."
+  ],
+  "LED count mismatch.": [
+    "Число светодиодов не совпало.",
+    "LED 数量不匹配。",
+    "El número de LED no coincide.",
+    "A quantidade de LEDs não corresponde."
+  ],
+  "RGB sent: {0} {1}, {2}, {3} bytes, {4} RF packets, {5:F0} ms; awaiting confirmation.": [
+    "RGB отправлен: {0} {1}, {2}, {3} байт, {4} RF-пакетов, {5:F0} мс; ожидается подтверждение.",
+    "RGB 已发送：{0} {1}，{2}，{3} 字节，{4} 个 RF 包，{5:F0} ms；等待确认。",
+    "RGB enviado: {0} {1}, {2}, {3} bytes, {4} paquetes RF, {5:F0} ms; esperando confirmación.",
+    "RGB enviado: {0} {1}, {2}, {3} bytes, {4} pacotes RF, {5:F0} ms; aguardando confirmação."
+  ],
+  "pump": [
+    "помпа",
+    "水泵",
+    "bomba",
+    "bomba"
+  ],
+  "group": [
+    "группа",
+    "组",
+    "grupo",
+    "grupo"
+  ],
+  "24-LED ring": [
+    "кольцо 24 LED",
+    "24 LED 灯环",
+    "anillo de 24 LED",
+    "anel de 24 LEDs"
+  ],
+  "{0} fans": [
+    "{0} вент.",
+    "{0} 个风扇",
+    "{0} ventiladores",
+    "{0} ventoinhas"
+  ],
+  "Group {0} ({1} fans): {2}": [
+    "Группа {0} ({1} вент.): {2}",
+    "组 {0}（{1} 个风扇）：{2}",
+    "Grupo {0} ({1} ventiladores): {2}",
+    "Grupo {0} ({1} ventoinhas): {2}"
+  ],
+  "RGB {0}: cycle confirmed after retry {1}.": [
+    "RGB {0}: цикл подтверждён после повтора {1}.",
+    "RGB {0}：重试 {1} 后循环已确认。",
+    "RGB {0}: ciclo confirmado tras el reintento {1}.",
+    "RGB {0}: ciclo confirmado após a tentativa {1}."
+  ],
+  "RGB {0}: cycle unconfirmed or reset to built-in effect; retry {1}/{2}.": [
+    "RGB {0}: группа не подтвердила цикл или сбросилась на встроенный эффект — повтор {1}/{2}.",
+    "RGB {0}：循环未确认或已恢复内置效果；重试 {1}/{2}。",
+    "RGB {0}: ciclo sin confirmar o efecto integrado restaurado; reintento {1}/{2}.",
+    "RGB {0}: ciclo não confirmado ou efeito integrado restaurado; tentativa {1}/{2}."
+  ],
+  "RGB {0}: retry not sent: {1}": [
+    "RGB {0}: повтор не отправлен: {1}",
+    "RGB {0}：未发送重试：{1}",
+    "RGB {0}: reintento no enviado: {1}",
+    "RGB {0}: tentativa não enviada: {1}"
+  ],
+  "Close L-Connect 3 before sending RGB.": [
+    "Закройте L-Connect 3 перед передачей RGB.",
+    "发送 RGB 前请关闭 L-Connect 3。",
+    "Cierre L-Connect 3 antes de enviar RGB.",
+    "Feche o L-Connect 3 antes de enviar RGB."
+  ],
+  "Connect the controller first.": [
+    "Сначала подключите контроллер.",
+    "请先连接控制器。",
+    "Conecte primero el controlador.",
+    "Conecte primeiro o controlador."
+  ],
+  "Pump no longer found in L-Wireless. Reconnect.": [
+    "Помпа больше не видна в списке L-Wireless. Повторите подключение.",
+    "L-Wireless 中已找不到水泵。请重新连接。",
+    "La bomba ya no aparece en L-Wireless. Reconecte.",
+    "A bomba não aparece mais no L-Wireless. Reconecte."
+  ],
+  "No confirmed RGB devices selected.": [
+    "Нет выбранных подтверждённых RGB-устройств.",
+    "未选择已确认的 RGB 设备。",
+    "No hay dispositivos RGB confirmados seleccionados.",
+    "Nenhum dispositivo RGB confirmado selecionado."
+  ],
+  "Device list changed while preparing the scene.": [
+    "Состав устройств изменился при подготовке сцены.",
+    "准备场景时设备列表已更改。",
+    "Los dispositivos cambiaron al preparar la escena.",
+    "Os dispositivos mudaram ao preparar a cena."
+  ],
+  "Connection changed while preparing RGB.": [
+    "Соединение изменилось во время подготовки RGB.",
+    "准备 RGB 时连接已更改。",
+    "La conexión cambió al preparar RGB.",
+    "A conexão mudou ao preparar o RGB."
+  ],
+  "Group changed during preparation. Apply again.": [
+    "Группа изменилась во время подготовки. Повторите применение.",
+    "准备时设备组已更改。请重新应用。",
+    "El grupo cambió durante la preparación. Vuelva a aplicar.",
+    "O grupo mudou durante a preparação. Aplique novamente."
+  ],
+  "Uploading {0}/{1}: {2}, ": [
+    "Загрузка {0}/{1}: {2}, ",
+    "正在上传 {0}/{1}：{2}，",
+    "Cargando {0}/{1}: {2}, ",
+    "Carregando {0}/{1}: {2}, "
+  ],
+  "pump ring": [
+    "кольцо помпы",
+    "水泵灯环",
+    "anillo de la bomba",
+    "anel da bomba"
+  ],
+  "RGB sent: {0} frames, {1:F1} FPS. Awaiting device confirmation.": [
+    "RGB отправлен: {0} кадров, {1:F1} FPS. Ожидание подтверждения устройств.",
+    "RGB 已发送：{0} 帧，{1:F1} FPS。等待设备确认。",
+    "RGB enviado: {0} fotogramas, {1:F1} FPS. Esperando confirmación.",
+    "RGB enviado: {0} quadros, {1:F1} FPS. Aguardando confirmação."
+  ],
+  "Groups sent: {0}/{1}. {2}": [
+    "Отправлено групп: {0}/{1}. {2}",
+    "已发送组：{0}/{1}。{2}",
+    "Grupos enviados: {0}/{1}. {2}",
+    "Grupos enviados: {0}/{1}. {2}"
+  ],
+  "Wait for group identification to finish.": [
+    "Дождитесь завершения поиска группы.",
+    "请等待设备组识别完成。",
+    "Espere a que termine la identificación del grupo.",
+    "Aguarde o fim da identificação do grupo."
+  ],
+  "Connect USB and close L-Connect before identifying a group.": [
+    "Подключите USB и закройте L-Connect перед поиском группы.",
+    "识别设备组前请连接 USB 并关闭 L-Connect。",
+    "Conecte USB y cierre L-Connect antes de identificar un grupo.",
+    "Conecte o USB e feche o L-Connect antes de identificar um grupo."
+  ],
+  "Apply a gradient to this group first so it can be restored after identification.": [
+    "Сначала примените градиент к этой группе: тогда после поиска можно будет точно восстановить подсветку.",
+    "请先向此组应用渐变，以便识别后恢复。",
+    "Aplique primero un gradiente al grupo para restaurarlo tras identificarlo.",
+    "Aplique primeiro um gradiente ao grupo para restaurá-lo após a identificação."
+  ],
+  "Selected group not found.": [
+    "Выбранная группа не найдена.",
+    "未找到所选设备组。",
+    "No se encontró el grupo seleccionado.",
+    "Grupo selecionado não encontrado."
+  ],
+  "Identify {0}: 1 red, 2 green, 3 blue, 4 yellow. Restores in 7 seconds.": [
+    "Поиск {0}: 1 — красный, 2 — зелёный, 3 — синий, 4 — жёлтый. Возврат через 7 секунд.",
+    "识别 {0}：1 红、2 绿、3 蓝、4 黄。7 秒后恢复。",
+    "Identificar {0}: 1 rojo, 2 verde, 3 azul, 4 amarillo. Se restaura en 7 segundos.",
+    "Identificar {0}: 1 vermelho, 2 verde, 3 azul, 4 amarelo. Restaura em 7 segundos."
+  ],
+  "Connection changed; restoration waits for reconnection.": [
+    "Соединение изменилось: восстановление поиска отложено до переподключения.",
+    "连接已更改；重新连接后恢复。",
+    "La conexión cambió; la restauración espera la reconexión.",
+    "A conexão mudou; a restauração aguarda a reconexão."
+  ],
+  "Group disappeared during identification.": [
+    "Группа исчезла во время поиска.",
+    "识别时设备组已消失。",
+    "El grupo desapareció durante la identificación.",
+    "O grupo desapareceu durante a identificação."
+  ],
+  "Identification {0} finished. Previous RGB cycle sent; awaiting confirmation.": [
+    "Поиск {0} завершён. Предыдущий RGB-цикл отправлен обратно; ожидается подтверждение.",
+    "{0} 识别完成。已发送原 RGB 循环，等待确认。",
+    "Identificación {0} terminada. Ciclo anterior enviado; esperando confirmación.",
+    "Identificação {0} concluída. Ciclo anterior enviado; aguardando confirmação."
+  ],
+  "L-Connect 3 started; USB released to avoid conflicts.": [
+    "Запущен L-Connect 3: USB освобождён для предотвращения конфликта.",
+    "L-Connect 3 已启动；已释放 USB 以避免冲突。",
+    "L-Connect 3 iniciado; USB liberado para evitar conflictos.",
+    "L-Connect 3 iniciado; USB liberado para evitar conflitos."
+  ],
+  "{0} Poll {1}/3; keeping connection.": [
+    "{0} Опрос {1}/3, соединение сохраняется.",
+    "{0} 轮询 {1}/3；保持连接。",
+    "{0} Consulta {1}/3; se mantiene la conexión.",
+    "{0} Consulta {1}/3; mantendo a conexão."
+  ],
+  "RGB: groups confirmed {0}/{1}. ": [
+    "RGB: подтверждено групп {0}/{1}. ",
+    "RGB：已确认组 {0}/{1}。",
+    "RGB: grupos confirmados {0}/{1}. ",
+    "RGB: grupos confirmados {0}/{1}. "
+  ],
+  "Check visual synchronization on the fans.": [
+    "Визуальную синхронность проверьте на вентиляторах.",
+    "请观察风扇是否同步。",
+    "Compruebe la sincronización visual de los ventiladores.",
+    "Verifique a sincronização visual das ventoinhas."
+  ],
+  "Awaiting device confirmation.": [
+    "Ожидание подтверждения устройства.",
+    "等待设备确认。",
+    "Esperando confirmación del dispositivo.",
+    "Aguardando confirmação do dispositivo."
+  ],
+  "L-Connect 3 started; transfer stopped.": [
+    "Запущен L-Connect 3: передача остановлена.",
+    "L-Connect 3 已启动；传输已停止。",
+    "L-Connect 3 iniciado; transferencia detenida.",
+    "L-Connect 3 iniciado; transferência interrompida."
+  ],
+  "OpenRGB: frame sent (5 FPS total limit).": [
+    "OpenRGB: RGB-кадр отправлен (общий предел 5 FPS).",
+    "OpenRGB：帧已发送（总上限 5 FPS）。",
+    "OpenRGB: fotograma enviado (límite total de 5 FPS).",
+    "OpenRGB: quadro enviado (limite total de 5 FPS)."
+  ],
+  "Connection lost: ": [
+    "Соединение прервано: ",
+    "连接已断开：",
+    "Conexión perdida: ",
+    "Conexão perdida: "
+  ],
+  "Invalid cooling settings.": [
+    "Некорректные настройки охлаждения.",
+    "散热设置无效。",
+    "Ajustes de refrigeración inválidos.",
+    "Configurações de refrigeração inválidas."
+  ],
+  "Cooling curve: 2–12 points, 0–120 °C, 0–100%.": [
+    "Кривая охлаждения: 2–12 точек, 0–120 °C, 0–100 %.",
+    "散热曲线：2–12 个点、0–120 °C、0–100%。",
+    "Curva: 2–12 puntos, 0–120 °C, 0–100 %.",
+    "Curva: 2–12 pontos, 0–120 °C, 0–100%."
+  ],
+  "Linear curve requires two limits; the first temperature must be lower.": [
+    "Линейная кривая: две границы, первая температура ниже второй.",
+    "线性曲线需要两个端点，起始温度须低于结束温度。",
+    "La curva lineal necesita dos límites; la primera temperatura debe ser menor.",
+    "A curva linear precisa de dois limites; a primeira temperatura deve ser menor."
+  ],
+  "Application executable not found.": [
+    "Не найден исполняемый файл программы.",
+    "未找到应用可执行文件。",
+    "No se encontró el ejecutable.",
+    "Executável não encontrado."
+  ],
+  "CPU sensor can only start from the built application.": [
+    "Датчик CPU запускается только из собранной программы.",
+    "CPU 传感器只能从已编译的应用启动。",
+    "El sensor CPU solo puede iniciarse desde la aplicación compilada.",
+    "O sensor CPU só pode ser iniciado pelo aplicativo compilado."
+  ],
+  "CPU sensor startup cancelled.": [
+    "Запуск датчика CPU отменён.",
+    "已取消启动 CPU 传感器。",
+    "Inicio del sensor CPU cancelado.",
+    "Inicialização do sensor CPU cancelada."
+  ],
+  "Pump · motor": [
+    "Помпа · насос",
+    "水泵 · 转速",
+    "Bomba · motor",
+    "Bomba · motor"
+  ],
+  "Unmanaged": [
+    "Не управлять",
+    "不控制",
+    "Sin control",
+    "Sem controle"
+  ],
+  "CPU": [
+    "Процессор",
+    "处理器",
+    "Procesador",
+    "Processador"
+  ],
+  "Graphics card": [
+    "Видеокарта",
+    "显卡",
+    "Tarjeta gráfica",
+    "Placa de vídeo"
+  ],
+  "Coolant (pump)": [
+    "Жидкость (помпа)",
+    "冷却液（水泵）",
+    "Líquido (bomba)",
+    "Líquido (bomba)"
+  ],
+  "Fixed": [
+    "Постоянная",
+    "固定",
+    "Fija",
+    "Fixa"
+  ],
+  "Control fan speed": [
+    "Управлять оборотами вентиляторов",
+    "控制风扇转速",
+    "Controlar velocidad de ventiladores",
+    "Controlar velocidade das ventoinhas"
+  ],
+  "Start CPU sensor without admin rights too (UAC prompt)": [
+    "Без прав администратора тоже запускать датчик CPU (запрос UAC)",
+    "非管理员启动时也启动 CPU 传感器（UAC 提示）",
+    "Iniciar sensor CPU también sin permisos de administrador (UAC)",
+    "Iniciar sensor CPU também sem privilégios de administrador (UAC)"
+  ],
+  "Points": [
+    "Точки",
+    "控制点",
+    "Puntos",
+    "Pontos"
+  ],
+  "Linear": [
+    "Линейно",
+    "线性",
+    "Lineal",
+    "Linear"
+  ],
+  "{0} RPM": [
+    "{0} об/мин",
+    "{0} RPM",
+    "{0} RPM",
+    "{0} RPM"
+  ],
+  "unmanaged": [
+    "не управляется",
+    "未控制",
+    "sin control",
+    "sem controle"
+  ],
+  " · failsafe": [
+    " · авария",
+    " · 应急模式",
+    " · emergencia",
+    " · emergência"
+  ],
+  "hardware": [
+    "аппаратная",
+    "硬件",
+    "hardware",
+    "hardware"
+  ],
+  "pump: {0}": [
+    "насос: {0}",
+    "水泵：{0}",
+    "bomba: {0}",
+    "bomba: {0}"
+  ],
+  "no radio connection": [
+    "нет связи по радио",
+    "无无线连接",
+    "sin conexión por radio",
+    "sem conexão por rádio"
+  ],
+  "disconnected": [
+    "нет связи",
+    "未连接",
+    "desconectado",
+    "desconectado"
+  ],
+  "Start CPU sensor (administrator)": [
+    "Запустить датчик CPU (администратор)",
+    "启动 CPU 传感器（管理员）",
+    "Iniciar sensor CPU (administrador)",
+    "Iniciar sensor CPU (administrador)"
+  ],
+  "CPU sensor starting; temperature will appear shortly.": [
+    "Датчик CPU запускается: температура появится через пару секунд.",
+    "CPU 传感器正在启动，温度即将显示。",
+    "Iniciando sensor CPU; la temperatura aparecerá en unos segundos.",
+    "Iniciando sensor CPU; a temperatura aparecerá em alguns segundos."
+  ],
+  "Minimum, %": [
+    "Не медленнее, %",
+    "最低转速，%",
+    "Mínima, %",
+    "Mínima, %"
+  ],
+  "Fans controlled by the app never run below this value.": [
+    "Под управлением программы вентиляторы никогда не крутятся медленнее этого значения.",
+    "应用控制的风扇不会低于此值运行。",
+    "Los ventiladores controlados nunca bajan de este valor.",
+    "As ventoinhas controladas nunca ficam abaixo deste valor."
+  ],
+  "Sensor lost, %": [
+    "Если датчик пропал, %",
+    "传感器失联转速，%",
+    "Sin sensor, %",
+    "Sem sensor, %"
+  ],
+  "Failsafe speed if sensor data is missing for over 10 seconds (e.g. CPU sensor closed).": [
+    "Аварийная скорость: если температура перестала приходить дольше 10 секунд (например, закрыли датчик CPU), группа переходит на эту скорость, чтобы ничего не перегрелось.",
+    "温度数据丢失超过 10 秒（例如 CPU 传感器关闭）时，设备组使用此应急转速。",
+    "Velocidad de emergencia si faltan datos del sensor más de 10 segundos (p. ej., sensor CPU cerrado).",
+    "Velocidade de emergência se faltarem dados do sensor por mais de 10 segundos (por exemplo, sensor CPU fechado)."
+  ],
+  "Slow down after cooling by, °C": [
+    "Замедлять после остывания на, °C",
+    "降温后减速阈值，°C",
+    "Reducir tras bajar, °C",
+    "Reduzir após baixar, °C"
+  ],
+  "Hysteresis: speed increases immediately and decreases only after this temperature drop, avoiding oscillation.": [
+    "Гистерезис: скорость растёт сразу, а снижается только когда температура упала на столько градусов. Так вентиляторы не «качаются» при колебаниях на 1 °C.",
+    "滞后：转速立即升高，仅在温度下降此幅度后降低，以避免波动。",
+    "Histéresis: aumenta de inmediato y baja solo tras este descenso de temperatura, evitando oscilaciones.",
+    "Histerese: aumenta imediatamente e diminui apenas após esta queda de temperatura, evitando oscilações."
+  ],
+  "Group": [
+    "Группа",
+    "设备组",
+    "Grupo",
+    "Grupo"
+  ],
+  "Fans": [
+    "Вент.",
+    "风扇",
+    "Vent.",
+    "Vent."
+  ],
+  "Source": [
+    "Источник",
+    "来源",
+    "Origen",
+    "Origem"
+  ],
+  "Fixed, %": [
+    "Пост., %",
+    "固定，%",
+    "Fija, %",
+    "Fixa, %"
+  ],
+  "Temp.": [
+    "Темп.",
+    "温度",
+    "Temp.",
+    "Temp."
+  ],
+  "Target": [
+    "Цель",
+    "目标",
+    "Objetivo",
+    "Alvo"
+  ],
+  "Speed, RPM": [
+    "Обороты, об/мин",
+    "转速，RPM",
+    "Velocidad, RPM",
+    "Velocidade, RPM"
+  ],
+  "Fixed speed must be an integer from 0 to 100.": [
+    "Постоянная скорость — целое число от 0 до 100.",
+    "固定转速须为 0 至 100 的整数。",
+    "La velocidad fija debe ser un entero de 0 a 100.",
+    "A velocidade fixa deve ser um inteiro de 0 a 100."
+  ],
+  "Curve": [
+    "Кривая",
+    "曲线",
+    "Curva",
+    "Curva"
+  ],
+  "from": [
+    "от",
+    "从",
+    "de",
+    "de"
+  ],
+  "%   to": [
+    "%   до",
+    "%   至",
+    "%   a",
+    "%   a"
+  ],
+  "Below the first temperature: first speed. Above the second: second speed. Linear between them.": [
+    "Ниже первой температуры — первая скорость, выше второй — вторая, между ними скорость растёт по прямой.",
+    "低于起始温度使用起始转速，高于结束温度使用结束转速，中间线性变化。",
+    "Por debajo de la primera temperatura: primera velocidad. Por encima de la segunda: segunda velocidad. Lineal entre ambas.",
+    "Abaixo da primeira temperatura: primeira velocidade. Acima da segunda: segunda velocidade. Linear entre elas."
+  ],
+  "CPU {0} · GPU {1} · coolant {2}": [
+    "CPU {0} · GPU {1} · жидкость {2}",
+    "CPU {0} · GPU {1} · 冷却液 {2}",
+    "CPU {0} · GPU {1} · líquido {2}",
+    "CPU {0} · GPU {1} · líquido {2}"
+  ],
+  "Control disabled: fans use hardware speed. Enable control and select a source for each group.": [
+    "Управление выключено: вентиляторы работают на аппаратной скорости. Включите галочку и выберите источник для групп.",
+    "控制已关闭：风扇使用硬件转速。请启用控制并为设备组选择来源。",
+    "Control desactivado: velocidad por hardware. Active el control y elija un origen para cada grupo.",
+    "Controle desativado: velocidade por hardware. Ative o controle e escolha uma origem para cada grupo."
+  ],
+  "No CPU temperature: start the CPU sensor. CPU groups use hardware speed until available; loss during operation triggers failsafe after 10 s.": [
+    "Нет температуры CPU — нажмите «Запустить датчик CPU». До её появления группы «Процессор» на аппаратной скорости; пропала во время работы — через 10 с аварийная.",
+    "无 CPU 温度：请启动 CPU 传感器。数据出现前，CPU 组使用硬件转速；运行中失联 10 秒后进入应急模式。",
+    "Sin temperatura CPU: inicie el sensor. Los grupos CPU usan velocidad por hardware hasta recibir datos; si se pierden, activan emergencia tras 10 s.",
+    "Sem temperatura CPU: inicie o sensor. Os grupos CPU usam velocidade por hardware até receber dados; se os perderem, ativam emergência após 10 s."
+  ],
+  "Independent of temperature · via L-Wireless": [
+    "Не зависит от температуры · по радио L-Wireless",
+    "不依赖温度 · 通过 L-Wireless",
+    "Independiente de la temperatura · por L-Wireless",
+    "Independente da temperatura · por L-Wireless"
+  ],
+  "Pump unmanaged; select Fixed in the table": [
+    "Насос не управляется программой — выберите «Постоянная» в таблице",
+    "水泵未受控制；请在表格中选择“固定”",
+    "Bomba sin control; seleccione Fija en la tabla",
+    "Bomba sem controle; selecione Fixa na tabela"
+  ],
+  "Drag the line up or down · 50 RPM steps": [
+    "Тяните линию вверх или вниз · шаг 50 об/мин",
+    "上下拖动线条 · 步长 50 RPM",
+    "Arrastre la línea · pasos de 50 RPM",
+    "Arraste a linha · passos de 50 RPM"
+  ],
+  "{0} fans · shared group speed": [
+    "{0} вент. — скорость общая для группы",
+    "{0} 个风扇 · 设备组统一转速",
+    "{0} ventiladores · velocidad compartida",
+    "{0} ventoinhas · velocidade compartilhada"
+  ],
+  "Fixed speed {0:F0}%": [
+    "Постоянная скорость {0:F0} %",
+    "固定转速 {0:F0}%",
+    "Velocidad fija {0:F0} %",
+    "Velocidade fixa {0:F0}%"
+  ],
+  "Group unmanaged · hardware speed": [
+    "Группа не управляется — аппаратная скорость",
+    "设备组未受控制 · 硬件转速",
+    "Grupo sin control · velocidad por hardware",
+    "Grupo sem controle · velocidade por hardware"
+  ],
+  "Drag endpoints or enter values above": [
+    "Тяните концы линии или введите значения сверху",
+    "拖动端点或在上方输入数值",
+    "Arrastre los extremos o introduzca valores arriba",
+    "Arraste as pontas ou insira os valores acima"
+  ],
+  "Drag points · double-click to add · right-click to remove": [
+    "Тяните точки · 2 щелчка — добавить · ПКМ — удалить",
+    "拖动控制点 · 双击添加 · 右键删除",
+    "Arrastre puntos · doble clic para añadir · clic derecho para eliminar",
+    "Arraste pontos · clique duplo para adicionar · botão direito para remover"
+  ],
+  "Arc": [
+    "Дуга",
+    "圆弧",
+    "Arco",
+    "Arco"
+  ],
+  "Ring": [
+    "Кольцо",
+    "圆环",
+    "Anillo",
+    "Anel"
+  ],
+  "Segments": [
+    "Сегменты",
+    "分段",
+    "Segmentos",
+    "Segmentos"
+  ],
+  "Minimal": [
+    "Минимал",
+    "极简",
+    "Minimalista",
+    "Minimalista"
+  ],
+  "List": [
+    "Список",
+    "列表",
+    "Lista",
+    "Lista"
+  ],
+  "Graph": [
+    "График",
+    "图表",
+    "Gráfico",
+    "Gráfico"
+  ],
+  "Coolant": [
+    "Жидкость",
+    "冷却液",
+    "Líquido",
+    "Líquido"
+  ],
+  "collecting data…": [
+    "собираем данные…",
+    "正在收集数据…",
+    "recopilando datos…",
+    "coletando dados…"
+  ],
+  "min {0:0}° · max {1:0}° · 5 min": [
+    "мин {0:0}° · макс {1:0}° · 5 мин",
+    "最低 {0:0}° · 最高 {1:0}° · 5 分钟",
+    "mín. {0:0}° · máx. {1:0}° · 5 min",
+    "mín. {0:0}° · máx. {1:0}° · 5 min"
+  ],
+  "Effect repetitions per cycle. Whole numbers keep playback seamless on devices.": [
+    "Сколько раз эффект повторяется за один цикл («Цикл, с»). Целое число — поэтому цикл на устройствах замыкается без рывка.",
+    "每个循环的效果重复次数。整数可保证设备播放无缝衔接。",
+    "Repeticiones por ciclo. Los números enteros mantienen la reproducción sin cortes.",
+    "Repetições por ciclo. Números inteiros mantêm a reprodução contínua."
+  ],
+  "Effect": [
+    "Эффект",
+    "效果",
+    "Efecto",
+    "Efeito"
+  ],
+  "Speed": [
+    "Скорость",
+    "速度",
+    "Velocidad",
+    "Velocidade"
+  ],
+  "Background": [
+    "Фон",
+    "背景",
+    "Fondo",
+    "Fundo"
+  ],
+  "Use the palette bar or Gradient editor above for effect colors. Each effect has its own palette. Tilt controls wave and starfall direction.": [
+    "Цвета эффекта — полоса палитры и «Редактор градиента…» выше; у каждого эффекта своя палитра. «Наклон» задаёт направление волн и звездопада.",
+    "使用上方色条或渐变编辑器设置效果颜色。每种效果有独立调色板。“倾斜”控制波浪和流星方向。",
+    "Use la paleta o el editor superior para los colores. Cada efecto tiene su paleta. La inclinación controla ondas y estrellas.",
+    "Use a paleta ou o editor acima para as cores. Cada efeito tem sua paleta. A inclinação controla ondas e estrelas."
+  ],
+  "Invalid mapping effect.": [
+    "Некорректный эффект маппинга.",
+    "映射效果无效。",
+    "Efecto de mapeo inválido.",
+    "Efeito de mapeamento inválido."
+  ],
+  "Invalid effect settings: ": [
+    "Некорректные настройки эффекта ",
+    "效果设置无效：",
+    "Ajustes de efecto inválidos: ",
+    "Configurações de efeito inválidas: "
+  ],
+  "Effect parameters “": [
+    "Параметры эффекта «",
+    "效果参数“",
+    "Los parámetros del efecto «",
+    "Os parâmetros do efeito «"
+  ],
+  "” are out of range.": [
+    "» вне допустимых пределов.",
+    "”超出范围。",
+    "» están fuera de rango.",
+    "» estão fora do intervalo."
+  ],
+  "Gradient": [
+    "Градиент",
+    "渐变",
+    "Gradiente",
+    "Gradiente"
+  ],
+  "The palette moves across the case at the Tilt angle.": [
+    "Обычный градиент: палитра бежит по корпусу под углом «Наклон».",
+    "调色板按“倾斜”角度在机箱上移动。",
+    "La paleta se mueve por la caja según la inclinación.",
+    "A paleta se move pelo gabinete conforme a inclinação."
+  ],
+  "Waves": [
+    "Волны",
+    "波浪",
+    "Ondas",
+    "Ondas"
+  ],
+  "Waves of different lengths overlap, with darker troughs.": [
+    "Несколько волн разной длины накладываются друг на друга; впадины темнее.",
+    "不同波长的波浪叠加，波谷较暗。",
+    "Ondas de distintas longitudes se superponen, con valles más oscuros.",
+    "Ondas de comprimentos diferentes se sobrepõem, com vales mais escuros."
+  ],
+  "Wavelength, mm": [
+    "Длина волны, мм",
+    "波长，mm",
+    "Longitud de onda, mm",
+    "Comprimento de onda, mm"
+  ],
+  "Distance between main wave crests.": [
+    "Расстояние между гребнями главной волны.",
+    "主波波峰之间的距离。",
+    "Distancia entre crestas principales.",
+    "Distância entre as cristas principais."
+  ],
+  "Layers": [
+    "Слои",
+    "层数",
+    "Capas",
+    "Camadas"
+  ],
+  "Overlapping waves: 1 is smooth, 3 adds complex ripples.": [
+    "Сколько волн накладывается: 1 — ровная, 3 — сложная рябь.",
+    "叠加波数：1 为平滑，3 为复杂涟漪。",
+    "Ondas superpuestas: 1 suave, 3 con ondulación compleja.",
+    "Ondas sobrepostas: 1 suave, 3 com ondulações complexas."
+  ],
+  "Trough depth, %": [
+    "Глубина впадин, %",
+    "波谷深度，%",
+    "Profundidad del valle, %",
+    "Profundidade do vale, %"
+  ],
+  "How dark the wave troughs become.": [
+    "Насколько темнеют впадины между гребнями.",
+    "波谷变暗的程度。",
+    "Cuánto se oscurecen los valles.",
+    "Quanto os vales escurecem."
+  ],
+  "Flame": [
+    "Пламя",
+    "火焰",
+    "Llama",
+    "Chama"
+  ],
+  "Flames rise from the bottom; palette colors follow fire intensity.": [
+    "Языки пламени поднимаются снизу корпуса; цвет — по силе огня, от тёмного к яркому.",
+    "火焰从底部升起，颜色随火焰强度变化。",
+    "Las llamas suben desde abajo; los colores siguen su intensidad.",
+    "As chamas sobem da base; as cores seguem sua intensidade."
+  ],
+  "Flame height, %": [
+    "Высота пламени, %",
+    "火焰高度，%",
+    "Altura de llama, %",
+    "Altura da chama, %"
+  ],
+  "How far the fire reaches up the case.": [
+    "Докуда по высоте корпуса доходит огонь.",
+    "火焰在机箱中达到的高度。",
+    "Hasta dónde sube el fuego en la caja.",
+    "Até onde o fogo sobe no gabinete."
+  ],
+  "Flame size, mm": [
+    "Размер языков, мм",
+    "火舌大小，mm",
+    "Tamaño de llama, mm",
+    "Tamanho da chama, mm"
+  ],
+  "Larger values give broad, calm flames; smaller values give frequent flames.": [
+    "Крупнее — широкие спокойные языки, мельче — частые.",
+    "较大值产生宽而平稳的火舌，较小值产生密集火舌。",
+    "Valores altos: llamas anchas y suaves; bajos: llamas más frecuentes.",
+    "Valores altos: chamas largas e calmas; baixos: chamas mais frequentes."
+  ],
+  "Turbulence, %": [
+    "Турбулентность, %",
+    "湍流，%",
+    "Turbulencia, %",
+    "Turbulência, %"
+  ],
+  "How irregular and elongated the flames are.": [
+    "Насколько рваные и вытянутые языки.",
+    "火舌不规则和拉伸的程度。",
+    "Irregularidad y longitud de las llamas.",
+    "Irregularidade e alongamento das chamas."
+  ],
+  "Starfall": [
+    "Звездопад",
+    "流星",
+    "Lluvia de estrellas",
+    "Chuva de estrelas"
+  ],
+  "Stars with trails move at the Tilt angle, each using a palette color.": [
+    "Звёзды с хвостами летят под углом «Наклон»; у каждой свой цвет из палитры.",
+    "带拖尾的星星沿“倾斜”角度移动，各自使用调色板中的颜色。",
+    "Estrellas con estelas siguen la inclinación, cada una con un color de la paleta.",
+    "Estrelas com rastros seguem a inclinação, cada uma com uma cor da paleta."
+  ],
+  "Stars": [
+    "Звёзд",
+    "星星数量",
+    "Estrellas",
+    "Estrelas"
+  ],
+  "Number of stars visible at once.": [
+    "Сколько звёзд одновременно в полёте.",
+    "同时出现的星星数量。",
+    "Número de estrellas simultáneas.",
+    "Número de estrelas simultâneas."
+  ],
+  "Trail length, mm": [
+    "Длина хвоста, мм",
+    "拖尾长度，mm",
+    "Longitud de estela, mm",
+    "Comprimento do rastro, mm"
+  ],
+  "The trail fades toward its end.": [
+    "Хвост плавно гаснет к концу.",
+    "拖尾末端逐渐消失。",
+    "La estela se desvanece al final.",
+    "O rastro desaparece suavemente no final."
+  ],
+  "Star size, mm": [
+    "Размер звезды, мм",
+    "星星大小，mm",
+    "Tamaño de estrella, mm",
+    "Tamanho da estrela, mm"
+  ],
+  "Width of each star and its trail.": [
+    "Ширина звезды и её хвоста.",
+    "星星及其拖尾的宽度。",
+    "Anchura de la estrella y su estela.",
+    "Largura da estrela e do rastro."
+  ],
+  "Twinkle": [
+    "Мерцание",
+    "闪烁",
+    "Centelleo",
+    "Cintilação"
+  ],
+  "Random points flash and fade like stars in the sky.": [
+    "Случайные точки корпуса вспыхивают и гаснут, как звёзды на небе.",
+    "随机光点像星空一样闪亮和熄灭。",
+    "Puntos aleatorios brillan y se apagan como estrellas.",
+    "Pontos aleatórios brilham e apagam como estrelas."
+  ],
+  "Density, %": [
+    "Плотность, %",
+    "密度，%",
+    "Densidad, %",
+    "Densidade, %"
+  ],
+  "Proportion of points that twinkle.": [
+    "Какая доля точек мерцает.",
+    "闪烁光点的比例。",
+    "Proporción de puntos que centellean.",
+    "Proporção de pontos que cintilam."
+  ],
+  "Point size, mm": [
+    "Размер точки, мм",
+    "光点大小，mm",
+    "Tamaño de punto, mm",
+    "Tamanho do ponto, mm"
+  ],
+  "Small values affect individual LEDs; large values create patches.": [
+    "Мельче — каждый светодиод сам по себе, крупнее — пятна.",
+    "较小值影响单个 LED，较大值形成光斑。",
+    "Valores pequeños: LED individuales; grandes: manchas.",
+    "Valores pequenos: LEDs individuais; grandes: manchas."
+  ],
+  "Flash sharpness": [
+    "Резкость вспышки",
+    "闪光锐度",
+    "Nitidez del destello",
+    "Nitidez do brilho"
+  ],
+  "1: smooth breathing. 10: short spark.": [
+    "1 — плавное дыхание, 10 — короткая искра.",
+    "1：平滑呼吸。10：短暂火花。",
+    "1: respiración suave. 10: chispa breve.",
+    "1: respiração suave. 10: faísca curta."
+  ],
+  "Aurora": [
+    "Сияние",
+    "极光",
+    "Aurora",
+    "Aurora"
+  ],
+  "Wavy ribbons of light flow across the top of the case.": [
+    "Северное сияние: волнистые полосы света текут вверху корпуса.",
+    "波状光带在机箱顶部流动。",
+    "Cintas de luz onduladas fluyen por la parte superior de la caja.",
+    "Faixas de luz onduladas fluem pelo topo do gabinete."
+  ],
+  "Ribbon spacing, mm": [
+    "Ширина полос, мм",
+    "光带间距，mm",
+    "Separación de cintas, mm",
+    "Espaçamento das faixas, mm"
+  ],
+  "Distance between aurora ribbons.": [
+    "Расстояние между полосами сияния.",
+    "极光带之间的距离。",
+    "Distancia entre cintas de aurora.",
+    "Distância entre as faixas de aurora."
+  ],
+  "Waviness, %": [
+    "Волнистость, %",
+    "波动，%",
+    "Ondulación, %",
+    "Ondulação, %"
+  ],
+  "How much the ribbons bend.": [
+    "Насколько изгибаются полосы.",
+    "光带弯曲的程度。",
+    "Cuánto se curvan las cintas.",
+    "Quanto as faixas se curvam."
+  ],
+  "Aurora height, %": [
+    "Высота сияния, %",
+    "极光高度，%",
+    "Altura de aurora, %",
+    "Altura da aurora, %"
+  ],
+  "How far the light reaches down from the top.": [
+    "Докуда сверху вниз доходит свет.",
+    "光线从顶部向下覆盖的范围。",
+    "Hasta dónde baja la luz desde arriba.",
+    "Até onde a luz desce a partir do topo."
+  ],
+  "Plasma": [
+    "Плазма",
+    "等离子",
+    "Plasma",
+    "Plasma"
+  ],
+  "Shifting patches of palette colors, like classic demo plasma.": [
+    "Переливающиеся пятна всех цветов палитры, как в лавовой плазме старых демосцен.",
+    "调色板色彩形成不断变幻的光斑，如经典等离子效果。",
+    "Manchas cambiantes de la paleta, como el plasma de las demos clásicas.",
+    "Manchas mutáveis da paleta, como o plasma de demos clássicas."
+  ],
+  "Scale, mm": [
+    "Масштаб, мм",
+    "比例，mm",
+    "Escala, mm",
+    "Escala, mm"
+  ],
+  "Size of the patches.": [
+    "Размер пятен.",
+    "光斑大小。",
+    "Tamaño de las manchas.",
+    "Tamanho das manchas."
+  ],
+  "Complexity": [
+    "Сложность",
+    "复杂度",
+    "Complejidad",
+    "Complexidade"
+  ],
+  "Number of waves mixed together.": [
+    "Сколько волн смешивается.",
+    "混合的波浪数量。",
+    "Número de ondas mezcladas.",
+    "Número de ondas misturadas."
+  ],
+  "Color cycling": [
+    "Смена цветов",
+    "颜色循环",
+    "Ciclo de colores",
+    "Ciclo de cores"
+  ],
+  "Palette repetitions per cycle (0 keeps colors in place).": [
+    "Сколько раз палитра пробегает по пятнам за цикл (0 — цвета на месте).",
+    "每个循环中调色板的重复次数（0 表示颜色不移动）。",
+    "Vueltas de la paleta por ciclo (0 mantiene los colores fijos).",
+    "Voltas da paleta por ciclo (0 mantém as cores fixas)."
+  ],
+  "Rain": [
+    "Дождь",
+    "雨滴",
+    "Lluvia",
+    "Chuva"
+  ],
+  "Drops fall in thin streams with fading trails.": [
+    "Капли падают сверху вниз тонкими струями с затуханием.",
+    "雨滴沿细流向下落，拖尾逐渐消失。",
+    "Gotas caen en líneas finas con estelas que se desvanecen.",
+    "Gotas caem em linhas finas com rastros que desaparecem."
+  ],
+  "Drops": [
+    "Капель",
+    "雨滴数量",
+    "Gotas",
+    "Gotas"
+  ],
+  "Number of streams visible at once.": [
+    "Сколько струй одновременно.",
+    "同时出现的雨流数量。",
+    "Número de líneas simultáneas.",
+    "Número de linhas simultâneas."
+  ],
+  "Drop length, mm": [
+    "Длина капли, мм",
+    "雨滴长度，mm",
+    "Longitud de gota, mm",
+    "Comprimento da gota, mm"
+  ],
+  "Length of the glowing trail.": [
+    "Длина светящегося следа.",
+    "发光拖尾的长度。",
+    "Longitud de la estela luminosa.",
+    "Comprimento do rastro luminoso."
+  ],
+  "Width, mm": [
+    "Ширина, мм",
+    "宽度，mm",
+    "Anchura, mm",
+    "Largura, mm"
+  ],
+  "Stream thickness.": [
+    "Толщина струи.",
+    "雨流的粗细。",
+    "Grosor de la línea.",
+    "Espessura da linha."
+  ],
+  "Ripple": [
+    "Пульсация",
+    "涟漪",
+    "Ondas circulares",
+    "Ondas circulares"
+  ],
+  "Rings spread from a point like ripples on water; color follows distance.": [
+    "Кольца расходятся из точки, как круги на воде; цвет меняется с расстоянием.",
+    "圆环像水波一样从一点扩散，颜色随距离变化。",
+    "Anillos se expanden desde un punto como ondas de agua; el color sigue la distancia.",
+    "Anéis se expandem de um ponto como ondas na água; a cor segue a distância."
+  ],
+  "Ring spacing, mm": [
+    "Между кольцами, мм",
+    "圆环间距，mm",
+    "Separación de anillos, mm",
+    "Espaçamento dos anéis, mm"
+  ],
+  "Distance between adjacent rings.": [
+    "Расстояние между соседними кольцами.",
+    "相邻圆环之间的距离。",
+    "Distancia entre anillos vecinos.",
+    "Distância entre anéis vizinhos."
+  ],
+  "Ring thickness, %": [
+    "Толщина кольца, %",
+    "圆环粗细，%",
+    "Grosor de anillo, %",
+    "Espessura do anel, %"
+  ],
+  "Fraction of spacing occupied by the ring and its trail.": [
+    "Какую часть промежутка занимает кольцо со шлейфом.",
+    "圆环及拖尾占间距的比例。",
+    "Parte del espacio ocupada por el anillo y su estela.",
+    "Parte do espaço ocupada pelo anel e seu rastro."
+  ],
+  "Center X, %": [
+    "Центр по X, %",
+    "中心 X，%",
+    "Centro X, %",
+    "Centro X, %"
+  ],
+  "Origin: 0 is the left edge, 100 is the right edge.": [
+    "Откуда расходятся кольца: 0 — левый край корпуса, 100 — правый.",
+    "起点：0 为机箱左侧，100 为右侧。",
+    "Origen: 0 es el borde izquierdo, 100 el derecho.",
+    "Origem: 0 é a borda esquerda, 100 a direita."
+  ],
+  "Center Y, %": [
+    "Центр по Y, %",
+    "中心 Y，%",
+    "Centro Y, %",
+    "Centro Y, %"
+  ],
+  "0 is the top of the case, 100 is the bottom.": [
+    "0 — верх корпуса, 100 — низ.",
+    "0 为机箱顶部，100 为底部。",
+    "0 es la parte superior de la caja, 100 la inferior.",
+    "0 é o topo do gabinete, 100 a base."
+  ],
+  "Radar": [
+    "Радар",
+    "雷达",
+    "Radar",
+    "Radar"
+  ],
+  "A rotating beam leaves a fading trail; color follows distance from the center.": [
+    "Луч вращается вокруг точки и оставляет гаснущий след; цвет — по расстоянию от центра.",
+    "旋转光束留下渐隐拖尾，颜色随到中心的距离变化。",
+    "Un haz giratorio deja una estela; el color sigue la distancia al centro.",
+    "Um feixe giratório deixa um rastro; a cor segue a distância ao centro."
+  ],
+  "Trail width, °": [
+    "Ширина следа, °",
+    "拖尾宽度，°",
+    "Anchura de estela, °",
+    "Largura do rastro, °"
+  ],
+  "Angular length of the fading trail behind the beam.": [
+    "Длина гаснущего следа за лучом в градусах.",
+    "光束后方渐隐拖尾的角度长度。",
+    "Longitud angular de la estela detrás del haz.",
+    "Comprimento angular do rastro atrás do feixe."
+  ],
+  "Rotation axis: 0 is the left edge, 100 is the right edge.": [
+    "Ось вращения: 0 — левый край корпуса, 100 — правый.",
+    "旋转轴：0 为左侧，100 为右侧。",
+    "Eje: 0 es el borde izquierdo, 100 el derecho.",
+    "Eixo: 0 é a borda esquerda, 100 a direita."
+  ],
+  "Lava": [
+    "Лава",
+    "熔岩",
+    "Lava",
+    "Lava"
+  ],
+  "Soft lava drops float across the case and merge together.": [
+    "Мягкие капли лавы плавают по корпусу и сливаются друг с другом.",
+    "柔和的熔岩液滴在机箱内漂浮并融合。",
+    "Gotas suaves de lava flotan y se fusionan por la caja.",
+    "Gotas suaves de lava flutuam e se fundem pelo gabinete."
+  ],
+  "Number of floating drops.": [
+    "Сколько капель плавает.",
+    "漂浮液滴的数量。",
+    "Número de gotas flotantes.",
+    "Número de gotas flutuantes."
+  ],
+  "Size, mm": [
+    "Размер, мм",
+    "大小，mm",
+    "Tamaño, mm",
+    "Tamanho, mm"
+  ],
+  "Drop size.": [
+    "Размер капли.",
+    "液滴大小。",
+    "Tamaño de las gotas.",
+    "Tamanho das gotas."
+  ],
+  "Edge softness, %": [
+    "Мягкость края, %",
+    "边缘柔和度，%",
+    "Suavidad del borde, %",
+    "Suavidade da borda, %"
+  ],
+  "0: sharp drops. 100: blurred drops.": [
+    "0 — чёткие капли, 100 — размытые.",
+    "0：清晰液滴。100：模糊液滴。",
+    "0: gotas nítidas. 100: gotas difuminadas.",
+    "0: gotas nítidas. 100: gotas desfocadas."
+  ],
+  "Group names appear in Cooling and on the canvas. Set custom colors per group or per fan.": [
+    "Имя группы видно во вкладке «Охлаждение» и на холсте. Свой цвет можно задать всей группе или каждому вентилятору отдельно.",
+    "组名显示在散热页面和画布上。可为整组或单个风扇设置颜色。",
+    "Los nombres aparecen en Refrigeración y en el lienzo. Asigne colores por grupo o ventilador.",
+    "Os nomes aparecem em Refrigeração e na tela. Defina cores por grupo ou ventoinha."
+  ],
+  "Reset all to mapping": [
+    "Вернуть всё к маппингу",
+    "全部恢复映射",
+    "Volver todo al mapeo",
+    "Restaurar tudo ao mapeamento"
+  ],
+  "All lighting follows mapping again. Click Apply gradient.": [
+    "Вся подсветка снова идёт по маппингу. Нажмите «Применить градиент».",
+    "所有灯光已恢复映射。请点击“应用渐变”。",
+    "Toda la iluminación vuelve al mapeo. Pulse Aplicar gradiente.",
+    "Toda a iluminação voltou ao mapeamento. Clique em Aplicar gradiente."
+  ],
+  "Pump": [
+    "Помпа",
+    "水泵",
+    "Bomba",
+    "Bomba"
+  ],
+  "Group name, e.g. Top": [
+    "Имя группы, например «Сверху»",
+    "组名，例如“顶部”",
+    "Nombre del grupo, p. ej. Arriba",
+    "Nome do grupo, por exemplo, Em cima"
+  ],
+  "Group name changed. Click Save profile to keep names.": [
+    "Имя группы изменено. Нажмите «Сохранить профиль», чтобы сохранить имена.",
+    "组名已更改。点击“保存配置”以保留名称。",
+    "Nombre cambiado. Pulse Guardar perfil para conservarlo.",
+    "Nome alterado. Clique em Salvar perfil para mantê-lo."
+  ],
+  "Identify · 7 s": [
+    "Найти · 7 с",
+    "识别 · 7 秒",
+    "Identificar · 7 s",
+    "Identificar · 7 s"
+  ],
+  "Reverse order": [
+    "Развернуть порядок",
+    "反转顺序",
+    "Invertir orden",
+    "Inverter ordem"
+  ],
+  "Custom color…": [
+    "Свой цвет…",
+    "自定义颜色…",
+    "Color propio…",
+    "Cor própria…"
+  ],
+  "Group color…": [
+    "Свой цвет группы…",
+    "组颜色…",
+    "Color del grupo…",
+    "Cor do grupo…"
+  ],
+  "Turn off": [
+    "Выключить",
+    "关闭",
+    "Apagar",
+    "Desligar"
+  ],
+  "Follow mapping": [
+    "Вернуть к маппингу",
+    "跟随映射",
+    "Seguir mapeo",
+    "Seguir mapeamento"
+  ],
+  "Element": [
+    "Элемент",
+    "元素",
+    "Elemento",
+    "Elemento"
+  ],
+  "Fan": [
+    "Вентилятор",
+    "风扇",
+    "Ventilador",
+    "Ventoinha"
+  ],
+  "Lighting": [
+    "Подсветка",
+    "灯光",
+    "Iluminación",
+    "Iluminação"
+  ],
+  "Color": [
+    "Цвет",
+    "颜色",
+    "Color",
+    "Cor"
+  ],
+  "Status": [
+    "Состояние",
+    "状态",
+    "Estado",
+    "Estado"
+  ],
+  "Lighting follows mapping again. Click Apply gradient.": [
+    "Подсветка снова идёт по маппингу. Нажмите «Применить градиент».",
+    "灯光已恢复映射。请点击“应用渐变”。",
+    "La iluminación vuelve al mapeo. Pulse Aplicar gradiente.",
+    "A iluminação voltou ao mapeamento. Clique em Aplicar gradiente."
+  ],
+  "Lighting changed. Click Apply gradient to send it to devices.": [
+    "Подсветка изменена. Нажмите «Применить градиент», чтобы отправить на устройства.",
+    "灯光已更改。点击“应用渐变”发送到设备。",
+    "Iluminación modificada. Pulse Aplicar gradiente para enviarla.",
+    "Iluminação alterada. Clique em Aplicar gradiente para enviar."
+  ],
+  "Custom color set. Click Apply gradient to send it to devices.": [
+    "Свой цвет задан. Нажмите «Применить градиент», чтобы отправить на устройства.",
+    "自定义颜色已设置。点击“应用渐变”发送到设备。",
+    "Color propio definido. Pulse Aplicar gradiente para enviarlo.",
+    "Cor própria definida. Clique em Aplicar gradiente para enviar."
+  ],
+  "{0} · disconnected": [
+    "{0} · нет связи",
+    "{0} · 未连接",
+    "{0} · desconectado",
+    "{0} · desconectado"
+  ],
+  "{0} · online · {1} fans": [
+    "{0} · в сети · {1} вент.",
+    "{0} · 在线 · {1} 个风扇",
+    "{0} · conectado · {1} ventiladores",
+    "{0} · conectado · {1} ventoinhas"
+  ],
+  "Pump ring": [
+    "Кольцо помпы",
+    "水泵灯环",
+    "Anillo de la bomba",
+    "Anel da bomba"
+  ],
+  "Fan {0}": [
+    "Вентилятор {0}",
+    "风扇 {0}",
+    "Ventilador {0}",
+    "Ventoinha {0}"
+  ],
+  "Click to set a custom color for this fan only": [
+    "Щёлкните, чтобы задать свой цвет только этому вентилятору",
+    "点击仅为此风扇设置颜色",
+    "Pulse para asignar un color solo a este ventilador",
+    "Clique para definir uma cor apenas para esta ventoinha"
+  ],
+  "off": [
+    "выключено",
+    "已关闭",
+    "apagado",
+    "desligado"
+  ],
+  "set color": [
+    "задать цвет",
+    "设置颜色",
+    "elegir color",
+    "definir cor"
+  ],
+  "{0} RPM · PWM {1:F0}%": [
+    "{0} об/мин · ШИМ {1:F0} %",
+    "{0} RPM · PWM {1:F0}%",
+    "{0} RPM · PWM {1:F0} %",
+    "{0} RPM · PWM {1:F0}%"
+  ],
+  "Invalid profile settings.": [
+    "Некорректные параметры профиля.",
+    "配置设置无效。",
+    "Ajustes de perfil inválidos.",
+    "Configurações de perfil inválidas."
+  ],
+  "Too many OpenRGB devices.": [
+    "Слишком много устройств OpenRGB.",
+    "OpenRGB 设备过多。",
+    "Demasiados dispositivos OpenRGB.",
+    "Dispositivos OpenRGB em excesso."
+  ],
+  "Screens: at most 8, no duplicates.": [
+    "Экраны: не больше 8, без повторов.",
+    "屏幕最多 8 个，不能重复。",
+    "Pantallas: máximo 8, sin duplicados.",
+    "Telas: no máximo 8, sem duplicatas."
+  ],
+  "Group names allow up to 48 characters with no line breaks.": [
+    "Имя группы должно содержать до 48 символов без переноса строк.",
+    "组名最多 48 个字符，不能换行。",
+    "Los nombres admiten hasta 48 caracteres, sin saltos de línea.",
+    "Os nomes aceitam até 48 caracteres, sem quebras de linha."
+  ],
+  "Check fan coordinates and indices.": [
+    "Проверьте координаты и номера вентиляторов.",
+    "请检查风扇坐标和索引。",
+    "Compruebe coordenadas e índices de ventiladores.",
+    "Verifique coordenadas e índices das ventoinhas."
+  ],
+  "Calibration needs one point per fan LED.": [
+    "Калибровка должна содержать по точке на каждый LED вентилятора.",
+    "校准需要为风扇的每个 LED 提供一个点。",
+    "La calibración necesita un punto por cada LED del ventilador.",
+    "A calibração precisa de um ponto para cada LED da ventoinha."
+  ],
+  "Profile is too large.": [
+    "Слишком большой профиль.",
+    "配置文件过大。",
+    "El perfil es demasiado grande.",
+    "O perfil é grande demais."
+  ],
+  "Empty profile.": [
+    "Пустой профиль.",
+    "配置为空。",
+    "Perfil vacío.",
+    "Perfil vazio."
+  ],
+  "Invalid pump geometry.": [
+    "Некорректная геометрия помпы.",
+    "水泵几何设置无效。",
+    "Geometría de bomba inválida.",
+    "Geometria da bomba inválida."
+  ],
+  "Invalid lighting layer settings.": [
+    "Некорректные параметры слоя подсветки.",
+    "灯光层设置无效。",
+    "Ajustes de capa de iluminación inválidos.",
+    "Configurações da camada de iluminação inválidas."
+  ],
+  "Enter 2–16 colors separated by commas.": [
+    "Укажите от 2 до 16 цветов через запятую.",
+    "请输入 2–16 种颜色，用逗号分隔。",
+    "Introduzca entre 2 y 16 colores separados por comas.",
+    "Insira de 2 a 16 cores separadas por vírgulas."
+  ],
+  "Color: #RRGGBB or #RRGGBB@position from 0 to 1.": [
+    "Цвет: #RRGGBB или #RRGGBB@позиция от 0 до 1.",
+    "颜色：#RRGGBB 或 #RRGGBB@位置（0 到 1）。",
+    "Color: #RRGGBB o #RRGGBB@posición de 0 a 1.",
+    "Cor: #RRGGBB ou #RRGGBB@posição de 0 a 1."
+  ],
+  "Color stop position must be at least 0 and less than 1.": [
+    "Позиция цветовой точки должна быть от 0 до 1, не включая 1.",
+    "颜色节点位置须大于等于 0 且小于 1。",
+    "La posición debe ser al menos 0 y menor que 1.",
+    "A posição deve ser no mínimo 0 e menor que 1."
+  ],
+  "Color stop positions must differ.": [
+    "Позиции цветов должны различаться.",
+    "颜色节点位置不能重复。",
+    "Las posiciones de color deben ser distintas.",
+    "As posições das cores devem ser diferentes."
+  ],
+  "Enable every fan of the selected group in the layout.": [
+    "Включите все вентиляторы выбранной группы в схеме.",
+    "请在布局中启用所选组的全部风扇。",
+    "Active todos los ventiladores del grupo en el diseño.",
+    "Ative todas as ventoinhas do grupo na disposição."
+  ],
+  "100% / cycle start": [
+    "100% / начало цикла",
+    "100% / 循环起点",
+    "100 % / inicio del ciclo",
+    "100% / início do ciclo"
+  ],
+  "Choose color…": [
+    "Выбрать цвет…",
+    "选择颜色…",
+    "Elegir color…",
+    "Escolher cor…"
+  ],
+  "Remove stop": [
+    "Удалить точку",
+    "删除节点",
+    "Eliminar punto",
+    "Remover ponto"
+  ],
+  "+ Stop": [
+    "+ Точка",
+    "+ 节点",
+    "+ Punto",
+    "+ Ponto"
+  ],
+  "Gradient editor": [
+    "Редактор градиента",
+    "渐变编辑器",
+    "Editor de gradiente",
+    "Editor de gradiente"
+  ],
+  "Double-click the bar to add a stop, or a stop to choose its color. Drag to move.": [
+    "Двойной щелчок: полоса — новая точка; точка — выбор цвета. Перетаскивание — положение.",
+    "双击色条添加节点，双击节点选择颜色。拖动调整位置。",
+    "Doble clic en la barra para añadir un punto o en un punto para elegir color. Arrastre para mover.",
+    "Clique duplo na barra para adicionar um ponto ou no ponto para escolher a cor. Arraste para mover."
+  ],
+  "Position, %": [
+    "Положение, %",
+    "位置，%",
+    "Posición, %",
+    "Posição, %"
+  ],
+  "Distribute evenly": [
+    "Равномерно",
+    "均匀分布",
+    "Distribuir uniformemente",
+    "Distribuir uniformemente"
+  ],
+  "Transitions": [
+    "Переходы",
+    "过渡",
+    "Transiciones",
+    "Transições"
+  ],
+  "Soft blends · RGB": [
+    "Мягкие смеси · RGB",
+    "柔和混合 · RGB",
+    "Mezclas suaves · RGB",
+    "Misturas suaves · RGB"
+  ],
+  "Vivid colors · HSV": [
+    "Насыщенные цвета · HSV",
+    "鲜艳颜色 · HSV",
+    "Colores vivos · HSV",
+    "Cores vivas · HSV"
+  ],
+  "Saturation, %": [
+    "Насыщенность, %",
+    "饱和度，%",
+    "Saturación, %",
+    "Saturação, %"
+  ],
+  "Vivid rainbow": [
+    "Яркая радуга",
+    "鲜艳彩虹",
+    "Arcoíris intenso",
+    "Arco-íris intenso"
+  ],
+  "HSV keeps transitions saturated. Main brightness is {0:F0}%.\nClick Apply gradient on the main screen to send changes.": [
+    "HSV сохраняет насыщенность переходов. Общая яркость на главном экране сейчас {0:F0}%.\nИзменения попадут на вентиляторы после кнопки «Применить градиент».",
+    "HSV 保持过渡色饱和。主亮度为 {0:F0}%。\n请在主界面点击“应用渐变”发送更改。",
+    "HSV conserva la saturación. El brillo general es {0:F0} %.\nPulse Aplicar gradiente en la ventana principal para enviar los cambios.",
+    "HSV mantém a saturação. O brilho geral é {0:F0}%.\nClique em Aplicar gradiente na janela principal para enviar as alterações."
+  ],
+  "Done": [
+    "Готово",
+    "完成",
+    "Listo",
+    "Concluído"
+  ],
+  "Stop {0}/{1}": [
+    "Точка {0}/{1}",
+    "节点 {0}/{1}",
+    "Punto {0}/{1}",
+    "Ponto {0}/{1}"
+  ],
+  "HydroShift command is outside the permitted RGB protocol.": [
+    "Команда HydroShift вне разрешённого RGB-протокола.",
+    "HydroShift 命令不在允许的 RGB 协议范围内。",
+    "Comando HydroShift fuera del protocolo RGB permitido.",
+    "Comando HydroShift fora do protocolo RGB permitido."
+  ],
+  "Pump screen command is outside the permitted protocol.": [
+    "Команда экрана помпы вне разрешённого протокола.",
+    "水泵屏幕命令不在允许的协议范围内。",
+    "Comando de pantalla de bomba no permitido.",
+    "Comando de tela da bomba não permitido."
+  ],
+  "Pump requires 24 LEDs and an integer interval of 1–255 ticks.": [
+    "Помпа требует 24 LED и целый интервал 1–255 тиков.",
+    "水泵需要 24 个 LED 和 1–255 的整数间隔。",
+    "La bomba requiere 24 LED y un intervalo entero de 1–255 ticks.",
+    "A bomba requer 24 LEDs e um intervalo inteiro de 1–255 ticks."
+  ],
+  "Pump USB is closed.": [
+    "USB помпы закрыт.",
+    "水泵 USB 已关闭。",
+    "USB de la bomba cerrado.",
+    "USB da bomba fechado."
+  ],
+  "Pump USB is receiving continuous replies. Close other control software.": [
+    "USB помпы занят непрерывными ответами. Закройте другие программы управления.",
+    "水泵 USB 持续收到响应。请关闭其他控制软件。",
+    "USB de la bomba ocupado con respuestas continuas. Cierre otros programas de control.",
+    "USB da bomba ocupado com respostas contínuas. Feche outros programas de controle."
+  ],
+  "Pump did not confirm USB mode; RGB was not sent.": [
+    "Помпа не подтвердила вход в USB-режим; RGB не отправлялся.",
+    "水泵未确认 USB 模式；未发送 RGB。",
+    "La bomba no confirmó el modo USB; RGB no enviado.",
+    "A bomba não confirmou o modo USB; RGB não enviado."
+  ],
+  "Could not verify pump RF binding; RGB was not sent.": [
+    "Не удалось проверить RF-привязку помпы; RGB не отправлялся.",
+    "无法验证水泵无线配对；未发送 RGB。",
+    "No se pudo verificar la vinculación RF; RGB no enviado.",
+    "Não foi possível verificar o vínculo RF; RGB não enviado."
+  ],
+  "Pump USB is connected, but L-Wireless controls its RGB. USB RGB skipped; binding unchanged.": [
+    "Помпа подключена по USB, но её RGB управляется через L-Wireless. USB-загрузка RGB пропущена. Привязка не изменялась.",
+    "水泵 USB 已连接，但 RGB 由 L-Wireless 控制。已跳过 USB RGB，配对未更改。",
+    "La bomba está conectada por USB, pero L-Wireless controla su RGB. Se omite RGB por USB; vínculo sin cambios.",
+    "A bomba está conectada por USB, mas o L-Wireless controla seu RGB. RGB por USB ignorado; vínculo inalterado."
+  ],
+  "Pump RGB write incomplete; USB recovered. Apply again.": [
+    "RGB помпы записан не полностью; USB восстановлен. Повторите применение.",
+    "水泵 RGB 写入不完整；USB 已恢复。请重新应用。",
+    "Escritura RGB incompleta; USB recuperado. Vuelva a aplicar.",
+    "Gravação RGB incompleta; USB recuperado. Aplique novamente."
+  ],
+  "No HydroShift reply after RGB upload. No packet retry; reconnect USB in the app.": [
+    "Нет ответа HydroShift после загрузки RGB. Пакет повторно не отправлялся; переподключите USB в приложении.",
+    "RGB 上传后 HydroShift 未响应。未重发数据包；请在应用内重新连接 USB。",
+    "HydroShift no responde tras cargar RGB. Sin reenvío; reconecte USB en la aplicación.",
+    "HydroShift não responde após carregar RGB. Sem reenvio; reconecte o USB no aplicativo."
+  ],
+  "Pump USB disconnected": [
+    "Помпа USB не подключена",
+    "水泵 USB 未连接",
+    "USB de la bomba desconectado",
+    "USB da bomba desconectado"
+  ],
+  "Self-test: real pump USB must not be opened.": [
+    "Самопроверка: настоящий USB помпы не открывается.",
+    "自检：不能打开真实水泵 USB。",
+    "Prueba: no se debe abrir el USB real de la bomba.",
+    "Teste: o USB real da bomba não deve ser aberto."
+  ],
+  "Close L-Connect 3 before connecting the pump.": [
+    "Закройте L-Connect 3 перед подключением помпы.",
+    "连接水泵前请关闭 L-Connect 3。",
+    "Cierre L-Connect 3 antes de conectar la bomba.",
+    "Feche o L-Connect 3 antes de conectar a bomba."
+  ],
+  "HydroShift II LCD-C: {0} WinUSB devices available, exactly one required. Drivers unchanged.": [
+    "HydroShift II LCD-C: найдено доступных WinUSB-устройств {0}, требуется одно. Драйверы не менялись.",
+    "HydroShift II LCD-C：有 {0} 个可用 WinUSB 设备，需要且仅需一个。驱动未更改。",
+    "HydroShift II LCD-C: {0} dispositivos WinUSB disponibles; se requiere uno. Controladores sin cambios.",
+    "HydroShift II LCD-C: {0} dispositivos WinUSB disponíveis; é necessário um. Drivers inalterados."
+  ],
+  "HydroShift II LCD-C · USB open; RGB not sent yet": [
+    "HydroShift II LCD-C · USB открыт; RGB ещё не отправлялся",
+    "HydroShift II LCD-C · USB 已打开；尚未发送 RGB",
+    "HydroShift II LCD-C · USB abierto; RGB aún no enviado",
+    "HydroShift II LCD-C · USB aberto; RGB ainda não enviado"
+  ],
+  "HydroShift USB open; no GetVer reply yet": [
+    "HydroShift USB открыт; GetVer пока не ответил",
+    "HydroShift USB 已打开；GetVer 尚未响应",
+    "HydroShift USB abierto; GetVer aún sin respuesta",
+    "HydroShift USB aberto; GetVer ainda sem resposta"
+  ],
+  "H2: link MAC {0}; raw {1}. A MAC alone does not confirm RF binding.": [
+    "H2: link MAC {0}; raw {1}. Наличие MAC само по себе не подтверждает RF-привязку.",
+    "H2：连接 MAC {0}；原始数据 {1}。仅有 MAC 不能确认无线配对。",
+    "H2: MAC {0}; datos {1}. Un MAC no confirma por sí solo el vínculo RF.",
+    "H2: MAC {0}; dados {1}. Um MAC sozinho não confirma o vínculo RF."
+  ],
+  "No valid GetH2Params reply. Pump settings unchanged.": [
+    "Нет корректного ответа GetH2Params. Настройки помпы не изменялись.",
+    "GetH2Params 未返回有效响应。水泵设置未更改。",
+    "Sin respuesta válida de GetH2Params. Ajustes de bomba sin cambios.",
+    "Sem resposta válida de GetH2Params. Configurações da bomba inalteradas."
+  ],
+  "Connect pump USB and close L-Connect 3.": [
+    "Подключите USB помпы и закройте L-Connect 3.",
+    "请连接水泵 USB 并关闭 L-Connect 3。",
+    "Conecte el USB de la bomba y cierre L-Connect 3.",
+    "Conecte o USB da bomba e feche o L-Connect 3."
+  ],
+  "Pump: this RGB cycle is already loaded": [
+    "Помпа: этот RGB-цикл уже загружен",
+    "水泵：此 RGB 循环已加载",
+    "Bomba: este ciclo RGB ya está cargado",
+    "Bomba: este ciclo RGB já está carregado"
+  ],
+  "Pump: {0} frames, USB recovered ({1}); check lighting visually.": [
+    "Помпа: {0} кадров, USB восстановлен ({1}); подсветку проверьте визуально.",
+    "水泵：{0} 帧，USB 已恢复（{1}）；请观察灯光。",
+    "Bomba: {0} fotogramas, USB recuperado ({1}); compruebe la iluminación.",
+    "Bomba: {0} quadros, USB recuperado ({1}); verifique a iluminação."
+  ],
+  "Pump USB is not open.": [
+    "USB помпы не открыт.",
+    "水泵 USB 未打开。",
+    "USB de la bomba no abierto.",
+    "USB da bomba não aberto."
+  ],
+  "Pump USB: connection lost — ": [
+    "Помпа USB: связь потеряна — ",
+    "水泵 USB：连接已丢失 — ",
+    "USB de bomba: conexión perdida — ",
+    "USB da bomba: conexão perdida — "
+  ],
+  "Invalid keyboard settings.": [
+    "Некорректные настройки клавиатуры.",
+    "键盘设置无效。",
+    "Ajustes de teclado inválidos.",
+    "Configurações de teclado inválidas."
+  ],
+  "Send gradient to keyboard (via OpenRGB)": [
+    "Передавать градиент на клавиатуру (через OpenRGB)",
+    "向键盘发送渐变（通过 OpenRGB）",
+    "Enviar gradiente al teclado (por OpenRGB)",
+    "Enviar gradiente ao teclado (via OpenRGB)"
+  ],
+  "Own lighting": [
+    "Своя подсветка",
+    "独立灯光",
+    "Iluminación propia",
+    "Iluminação própria"
+  ],
+  "Use the Mapping palette, effect, cycle, tilt and wavelength. The keyboard mirrors the case canvas in sync with the fans.": [
+    "Палитра, эффект, цикл, наклон и длина — как во вкладке «Маппинг»; клавиатура показывает уменьшенный холст корпуса в такт вентиляторам.",
+    "使用映射页面的调色板、效果、周期、倾斜和波长。键盘显示机箱画布的缩小版，与风扇同步。",
+    "Usa paleta, efecto, ciclo, inclinación y longitud de Mapeo. El teclado refleja el lienzo de la caja sincronizado con los ventiladores.",
+    "Usa paleta, efeito, ciclo, inclinação e comprimento de Mapeamento. O teclado espelha a tela do gabinete em sincronia com as ventoinhas."
+  ],
+  "OpenRGB device": [
+    "Устройство OpenRGB",
+    "OpenRGB 设备",
+    "Dispositivo OpenRGB",
+    "Dispositivo OpenRGB"
+  ],
+  "Brightness, %": [
+    "Яркость, %",
+    "亮度，%",
+    "Brillo, %",
+    "Brilho, %"
+  ],
+  "Gradient editor…": [
+    "Редактор градиента…",
+    "渐变编辑器…",
+    "Editor de gradiente…",
+    "Editor de gradiente…"
+  ],
+  "Cycle, s": [
+    "Цикл, с",
+    "周期，秒",
+    "Ciclo, s",
+    "Ciclo, s"
+  ],
+  "Wavelength, keys": [
+    "Длина, клавиш",
+    "波长，键数",
+    "Longitud, teclas",
+    "Comprimento, teclas"
+  ],
+  "Tilt, °": [
+    "Наклон, °",
+    "倾斜，°",
+    "Inclinación, °",
+    "Inclinação, °"
+  ],
+  "Keyboard output disabled. Preview shows the gradient appearance.": [
+    "Передача на клавиатуру выключена. Предпросмотр показывает, как будет выглядеть градиент.",
+    "键盘输出已关闭。预览显示渐变效果。",
+    "Salida al teclado desactivada. La vista previa muestra el gradiente.",
+    "Saída para teclado desativada. A prévia mostra o gradiente."
+  ],
+  "Enable output in the OpenRGB tab; the keyboard uses the same server.": [
+    "Включите передачу в OpenRGB (вкладка OpenRGB): клавиатура получает цвета через тот же сервер.",
+    "请在 OpenRGB 页面启用输出；键盘使用同一服务器。",
+    "Active la salida en OpenRGB; el teclado usa el mismo servidor.",
+    "Ative a saída em OpenRGB; o teclado usa o mesmo servidor."
+  ],
+  "{0}: sending to {1} keys. ": [
+    "{0}: передаётся, {1} клавиш. ",
+    "{0}：正在向 {1} 个按键发送。",
+    "{0}: enviando a {1} teclas. ",
+    "{0}: enviando para {1} teclas. "
+  ],
+  "Follows mapping, synchronized with fans.": [
+    "Как в маппинге, в такт вентиляторам.",
+    "跟随映射，与风扇同步。",
+    "Sigue el mapeo, sincronizado con los ventiladores.",
+    "Segue o mapeamento, sincronizado com as ventoinhas."
+  ],
+  "Own lighting, independent keyboard clock.": [
+    "Своя подсветка, свои часы клавиатуры.",
+    "独立灯光，使用键盘独立时钟。",
+    "Iluminación propia, reloj independiente del teclado.",
+    "Iluminação própria, relógio independente do teclado."
+  ],
+  "{0} not found in OpenRGB. {1}": [
+    "{0} не найдена в OpenRGB. {1}",
+    "OpenRGB 中未找到 {0}。{1}",
+    "{0} no encontrado en OpenRGB. {1}",
+    "{0} não encontrado no OpenRGB. {1}"
+  ],
+  "Lighting layers · shared case canvas": [
+    "Слои подсветки · один холст корпуса",
+    "灯光层 · 共用机箱画布",
+    "Capas de iluminación · lienzo común",
+    "Camadas de iluminação · tela comum"
+  ],
+  "All layers share case coordinates and motion.\nLayer brightness multiplies master brightness. Click Apply to send.": [
+    "Все слои используют координаты одного корпуса и общее движение.\nЯркость слоя умножается на общую яркость. Передача — кнопкой «Применить».",
+    "所有层共用机箱坐标和运动。\n层亮度与总亮度相乘。点击“应用”发送。",
+    "Todas las capas comparten coordenadas y movimiento.\nEl brillo de capa multiplica el general. Pulse Aplicar para enviar.",
+    "Todas as camadas compartilham coordenadas e movimento.\nO brilho da camada multiplica o geral. Clique em Aplicar para enviar."
+  ],
+  "Inner lighting · 24 LEDs / fan": [
+    "Внутренняя подсветка · 24 LED / вентилятор",
+    "内部灯光 · 每个风扇 24 LED",
+    "Luz interior · 24 LED / ventilador",
+    "Luz interna · 24 LEDs / ventoinha"
+  ],
+  "Outer strip · 16 LEDs / fan": [
+    "Внешняя тонкая полоска · 16 LED / вентилятор",
+    "外部细灯带 · 每个风扇 16 LED",
+    "Tira exterior · 16 LED / ventilador",
+    "Faixa externa · 16 LEDs / ventoinha"
+  ],
+  "Pump ring · HydroShift II LCD-C · 24 LEDs": [
+    "Кольцо помпы · HydroShift II LCD-C · 24 LED",
+    "水泵灯环 · HydroShift II LCD-C · 24 LED",
+    "Anillo · HydroShift II LCD-C · 24 LED",
+    "Anel · HydroShift II LCD-C · 24 LEDs"
+  ],
+  "Enabled": [
+    "Включён",
+    "已启用",
+    "Activado",
+    "Ativado"
+  ],
+  "Use canvas colors": [
+    "Цвета общего холста",
+    "使用画布颜色",
+    "Usar colores del lienzo",
+    "Usar cores da tela"
+  ],
+  "Own gradient…": [
+    "Свой градиент…",
+    "独立渐变…",
+    "Gradiente propio…",
+    "Gradiente próprio…"
+  ],
+  "LCD fan command is outside the permitted protocol.": [
+    "Команда LCD-вентилятора вне разрешённого протокола.",
+    "LCD 风扇命令不在允许的协议范围内。",
+    "Comando de ventilador LCD no permitido.",
+    "Comando de ventoinha LCD não permitido."
+  ],
+  "Invalid LCD header length.": [
+    "Неверная длина заголовка LCD.",
+    "LCD 标头长度无效。",
+    "Longitud de cabecera LCD inválida.",
+    "Comprimento de cabeçalho LCD inválido."
+  ],
+  "Fan JPEG is {0} bytes; limit is {1}.": [
+    "JPEG для вентилятора {0} байт: предел {1}.",
+    "风扇 JPEG 为 {0} 字节；上限为 {1}。",
+    "JPEG de ventilador: {0} bytes; límite {1}.",
+    "JPEG da ventoinha: {0} bytes; limite {1}."
+  ],
+  "Pump JPEG is {0} bytes; limit is {1}.": [
+    "JPEG для помпы {0} байт: предел {1}.",
+    "水泵 JPEG 为 {0} 字节；上限为 {1}。",
+    "JPEG de bomba: {0} bytes; límite {1}.",
+    "JPEG da bomba: {0} bytes; limite {1}."
+  ],
+  "PREVIEW • USB not open": [
+    "ПРЕДПРОСМОТР • USB не открыт",
+    "预览 • USB 未打开",
+    "VISTA PREVIA • USB no abierto",
+    "PRÉVIA • USB não aberto"
+  ],
+  "Receive OpenRGB colors · 127.0.0.1:6743": [
+    "Принимать цвета OpenRGB · 127.0.0.1:6743",
+    "接收 OpenRGB 颜色 · 127.0.0.1:6743",
+    "Recibir colores OpenRGB · 127.0.0.1:6743",
+    "Receber cores OpenRGB · 127.0.0.1:6743"
+  ],
+  "Start at Windows sign-in (administrator, no UAC prompt)": [
+    "Запускать при входе в Windows (с правами администратора, без запроса UAC)",
+    "登录 Windows 时启动（管理员权限，无 UAC 提示）",
+    "Iniciar al entrar en Windows (administrador, sin aviso UAC)",
+    "Iniciar ao entrar no Windows (administrador, sem aviso UAC)"
+  ],
+  "Lian Li Windows · lighting": [
+    "Lian Li Windows · подсветка",
+    "Lian Li Windows · 灯光",
+    "Lian Li Windows · iluminación",
+    "Lian Li Windows · iluminação"
+  ],
+  "Mapping": [
+    "Маппинг",
+    "映射",
+    "Mapeo",
+    "Mapeamento"
+  ],
+  "Lian Li fans": [
+    "Вентиляторы Lian Li",
+    "Lian Li 风扇",
+    "Ventiladores Lian Li",
+    "Ventoinhas Lian Li"
+  ],
+  "Keyboard": [
+    "Клавиатура",
+    "键盘",
+    "Teclado",
+    "Teclado"
+  ],
+  "Cooling": [
+    "Охлаждение",
+    "散热",
+    "Refrigeración",
+    "Refrigeração"
+  ],
+  "Screens": [
+    "Экраны",
+    "屏幕",
+    "Pantallas",
+    "Telas"
+  ],
+  "Lian Li Windows 0.13.0 · lighting, cooling and screens": [
+    "Lian Li Windows 0.13.0 · подсветка, охлаждение и экраны",
+    "Lian Li Windows 0.12.0 · 灯光、散热和屏幕",
+    "Lian Li Windows 0.12.0 · iluminación, refrigeración y pantallas",
+    "Lian Li Windows 0.12.0 · iluminação, refrigeração e telas"
+  ],
+  "Saved profile could not be loaded: ": [
+    "Сохранённый профиль не загружен: ",
+    "无法加载已保存的配置：",
+    "No se pudo cargar el perfil guardado: ",
+    "Não foi possível carregar o perfil salvo: "
+  ],
+  "Connect USB": [
+    "Подключить USB",
+    "连接 USB",
+    "Conectar USB",
+    "Conectar USB"
+  ],
+  "Apply gradient": [
+    "Применить градиент",
+    "应用渐变",
+    "Aplicar gradiente",
+    "Aplicar gradiente"
+  ],
+  "Save profile": [
+    "Сохранить профиль",
+    "保存配置",
+    "Guardar perfil",
+    "Salvar perfil"
+  ],
+  "Open profile": [
+    "Открыть профиль",
+    "打开配置",
+    "Abrir perfil",
+    "Abrir perfil"
+  ],
+  "USB diagnostics": [
+    "Диагностика USB",
+    "USB 诊断",
+    "Diagnóstico USB",
+    "Diagnóstico USB"
+  ],
+  "Minimize to tray": [
+    "Свернуть в трей",
+    "最小化到托盘",
+    "Minimizar a la bandeja",
+    "Minimizar para a bandeja"
+  ],
+  "Lighting layers…": [
+    "Слои подсветки…",
+    "灯光层…",
+    "Capas de iluminación…",
+    "Camadas de iluminação…"
+  ],
+  "Pump…": [
+    "Помпа…",
+    "水泵…",
+    "Bomba…",
+    "Bomba…"
+  ],
+  "Case photo layout": [
+    "По фото корпуса",
+    "按机箱照片布局",
+    "Diseño según foto",
+    "Disposição da foto"
+  ],
+  "Coordinates": [
+    "Координаты",
+    "坐标",
+    "Coordenadas",
+    "Coordenadas"
+  ],
+  "Length, mm": [
+    "Длина, мм",
+    "波长，mm",
+    "Longitud, mm",
+    "Comprimento, mm"
+  ],
+  "LED gamma": [
+    "Гамма LED",
+    "LED 伽马",
+    "Gamma LED",
+    "Gama LED"
+  ],
+  "On": [
+    "Вкл.",
+    "启用",
+    "Act.",
+    "Ativo"
+  ],
+  "Group / name": [
+    "Группа / имя",
+    "组 / 名称",
+    "Grupo / nombre",
+    "Grupo / nome"
+  ],
+  "Group MAC": [
+    "MAC группы",
+    "组 MAC",
+    "MAC del grupo",
+    "MAC do grupo"
+  ],
+  "Fan no.": [
+    "№ вентилятора",
+    "风扇编号",
+    "N.º ventilador",
+    "N.º ventoinha"
+  ],
+  "X, mm": [
+    "X, мм",
+    "X，mm",
+    "X, mm",
+    "X, mm"
+  ],
+  "Y, mm": [
+    "Y, мм",
+    "Y，mm",
+    "Y, mm",
+    "Y, mm"
+  ],
+  "Rotation, °": [
+    "Поворот, °",
+    "旋转，°",
+    "Rotación, °",
+    "Rotação, °"
+  ],
+  "View: 0° side / 90° front": [
+    "Вид: 0° бок / 90° фас",
+    "视角：0° 侧面 / 90° 正面",
+    "Vista: 0° lateral / 90° frontal",
+    "Vista: 0° lateral / 90° frontal"
+  ],
+  "Scale": [
+    "Масштаб",
+    "缩放",
+    "Escala",
+    "Escala"
+  ],
+  "Y projection": [
+    "Проекция Y",
+    "Y 投影",
+    "Proyección Y",
+    "Projeção Y"
+  ],
+  "Enter a valid number in the table.": [
+    "Введите корректное число в таблице.",
+    "请在表格中输入有效数字。",
+    "Introduzca un número válido en la tabla.",
+    "Insira um número válido na tabela."
+  ],
+  "Enter a number from {0} to {1}.": [
+    "Введите число от {0} до {1}.",
+    "请输入 {0} 至 {1} 的数字。",
+    "Introduzca un número de {0} a {1}.",
+    "Insira um número de {0} a {1}."
+  ],
+  "Drag to reposition. Right-click for custom lighting or off. Click Apply gradient to update fans.": [
+    "Перетаскивание меняет положение, правая кнопка — своя подсветка или выключение элемента. На вентиляторы — кнопкой «Применить градиент».",
+    "拖动调整位置，右键设置颜色或关闭。点击“应用渐变”更新风扇。",
+    "Arrastre para mover. Clic derecho para color propio o apagar. Pulse Aplicar gradiente para actualizar ventiladores.",
+    "Arraste para mover. Botão direito para cor própria ou desligar. Clique em Aplicar gradiente para atualizar as ventoinhas."
+  ],
+  "Open": [
+    "Открыть",
+    "打开",
+    "Abrir",
+    "Abrir"
+  ],
+  "Exit": [
+    "Выйти",
+    "退出",
+    "Salir",
+    "Sair"
+  ],
+  "Pump · radio": [
+    "Помпа · радио",
+    "水泵 · 无线",
+    "Bomba · radio",
+    "Bomba · rádio"
+  ],
+  "Pump · USB": [
+    "Помпа · USB",
+    "水泵 · USB",
+    "Bomba · USB",
+    "Bomba · USB"
+  ],
+  "USB: fans {0} · pump {1}": [
+    "USB: вентиляторы {0} · помпа {1}",
+    "USB：风扇 {0} · 水泵 {1}",
+    "USB: ventiladores {0} · bomba {1}",
+    "USB: ventoinhas {0} · bomba {1}"
+  ],
+  "connected": [
+    "подключены",
+    "已连接",
+    "conectados",
+    "conectadas"
+  ],
+  "none": [
+    "нет",
+    "无",
+    "no",
+    "não"
+  ],
+  "via L-Wireless radio": [
+    "по радио L-Wireless",
+    "通过 L-Wireless 无线",
+    "por radio L-Wireless",
+    "por rádio L-Wireless"
+  ],
+  "via USB": [
+    "по USB",
+    "通过 USB",
+    "por USB",
+    "por USB"
+  ],
+  "PREVIEW • USB disconnected • hardware control inactive": [
+    "ПРЕДПРОСМОТР • USB не подключён • управление оборудованием не выполняется",
+    "预览 • USB 未连接 • 硬件控制未启用",
+    "VISTA PREVIA • USB desconectado • sin control de hardware",
+    "PRÉVIA • USB desconectado • sem controle de hardware"
+  ],
+  "Click Connect USB; speed is controlled via L-Wireless.": [
+    "Нажмите «Подключить USB»: скорость задаётся через L-Wireless.",
+    "请点击“连接 USB”；转速通过 L-Wireless 控制。",
+    "Pulse Conectar USB; la velocidad se controla por L-Wireless.",
+    "Clique em Conectar USB; a velocidade é controlada pelo L-Wireless."
+  ],
+  "Fan {0} · G{1}": [
+    "Вентилятор {0} · G{1}",
+    "风扇 {0} · G{1}",
+    "Ventilador {0} · G{1}",
+    "Ventoinha {0} · G{1}"
+  ],
+  "HydroShift II LCD-C pump": [
+    "Помпа HydroShift II LCD-C",
+    "HydroShift II LCD-C 水泵",
+    "Bomba HydroShift II LCD-C",
+    "Bomba HydroShift II LCD-C"
+  ],
+  "Unknown canvas element.": [
+    "Неизвестный элемент холста.",
+    "未知画布元素。",
+    "Elemento de lienzo desconocido.",
+    "Elemento de tela desconhecido."
+  ],
+  "{0}: {1}. Click Apply gradient to update the device.": [
+    "{0}: {1}. Нажмите «Применить градиент», чтобы отправить на устройство.",
+    "{0}：{1}。点击“应用渐变”更新设备。",
+    "{0}: {1}. Pulse Aplicar gradiente para actualizar el dispositivo.",
+    "{0}: {1}. Clique em Aplicar gradiente para atualizar o dispositivo."
+  ],
+  "Turn lighting off": [
+    "Выключить подсветку",
+    "关闭灯光",
+    "Apagar iluminación",
+    "Desligar iluminação"
+  ],
+  "Identify group · 7 s": [
+    "Найти группу · 7 с",
+    "识别设备组 · 7 秒",
+    "Identificar grupo · 7 s",
+    "Identificar grupo · 7 s"
+  ],
+  "Photo layout requires your G1–G4 groups: 2 + 1 + 3 + 3 fans with saved MAC addresses.": [
+    "Схема по фото рассчитана на ваши G1–G4: 2 + 1 + 3 + 3 вентилятора с сохранёнными MAC.",
+    "照片布局需要您的 G1–G4 组：2 + 1 + 3 + 3 个风扇及已保存的 MAC。",
+    "El diseño requiere sus G1–G4: 2 + 1 + 3 + 3 ventiladores con MAC guardados.",
+    "A disposição requer seus G1–G4: 2 + 1 + 3 + 3 ventoinhas com MACs salvos."
+  ],
+  "Case: G1 right, G2 left, G3 bottom, G4 top. Rows left to right; G1 top to bottom.": [
+    "По корпусу: G1 справа, G2 слева, G3 снизу, G4 сверху. Верх/низ слева направо; G1 сверху вниз.",
+    "机箱：G1 右、G2 左、G3 下、G4 上。行内从左到右；G1 从上到下。",
+    "Caja: G1 derecha, G2 izquierda, G3 abajo, G4 arriba. Filas de izquierda a derecha; G1 de arriba abajo.",
+    "Gabinete: G1 direita, G2 esquerda, G3 embaixo, G4 em cima. Filas da esquerda para a direita; G1 de cima para baixo."
+  ],
+  "Layers changed. Shared angle, wavelength and cycle preserve motion. Click Apply gradient.": [
+    "Слои изменены. Общие угол, длина и цикл сохраняют единое движение. Нажмите «Применить градиент».",
+    "灯光层已更改。共用角度、波长和周期以保持统一运动。请点击“应用渐变”。",
+    "Capas modificadas. Ángulo, longitud y ciclo comunes mantienen el movimiento. Pulse Aplicar gradiente.",
+    "Camadas alteradas. Ângulo, comprimento e ciclo comuns mantêm o movimento. Clique em Aplicar gradiente."
+  ],
+  "Pump geometry changed. Colors: Lighting layers. Send with Apply.": [
+    "Геометрия помпы изменена. Цвета — в «Слои подсветки». Передача — кнопкой «Применить».",
+    "水泵几何已更改。颜色在“灯光层”中设置，点击“应用”发送。",
+    "Geometría de bomba modificada. Colores en Capas de iluminación; envíe con Aplicar.",
+    "Geometria da bomba alterada. Cores em Camadas de iluminação; envie com Aplicar."
+  ],
+  "Wireless fans connected": [
+    "Беспроводные вентиляторы подключены",
+    "无线风扇已连接",
+    "Ventiladores inalámbricos conectados",
+    "Ventoinhas sem fio conectadas"
+  ],
+  "; pump USB for screen only": [
+    "; USB помпы — только для экрана",
+    "；水泵 USB 仅用于屏幕",
+    "; USB de bomba solo para pantalla",
+    "; USB da bomba apenas para a tela"
+  ],
+  "Pump paired to L-Wireless; USB RGB upload skipped.": [
+    "Помпа привязана к L-Wireless; USB-загрузка RGB для неё пропускается.",
+    "水泵已与 L-Wireless 配对；跳过 USB RGB 上传。",
+    "Bomba vinculada a L-Wireless; carga RGB por USB omitida.",
+    "Bomba emparelhada ao L-Wireless; envio RGB por USB ignorado."
+  ],
+  "screens found {0}": [
+    "экранов найдено {0}",
+    "已找到 {0} 个屏幕",
+    "pantallas encontradas {0}",
+    "telas encontradas {0}"
+  ],
+  ", managed {0}": [
+    ", под управлением {0}",
+    "，受控 {0} 个",
+    ", controladas {0}",
+    ", controladas {0}"
+  ],
+  "Screens: ": [
+    "Экраны: ",
+    "屏幕：",
+    "Pantallas: ",
+    "Telas: "
+  ],
+  "Group order reversed on canvas. Physical fan indices unchanged. Click Apply.": [
+    "Порядок группы на холсте развёрнут. Номера соответствуют прежним физическим вентиляторам. Нажмите «Применить».",
+    "画布中的组顺序已反转，物理风扇索引未变。请点击“应用”。",
+    "Orden invertido en el lienzo. Índices físicos sin cambios. Pulse Aplicar.",
+    "Ordem invertida na tela. Índices físicos inalterados. Clique em Aplicar."
+  ],
+  "Effect “{0}” on canvas. Click Apply gradient to update fans and pump.": [
+    "Эффект «{0}» на холсте. На вентиляторы и помпу — кнопкой «Применить градиент».",
+    "画布效果为“{0}”。点击“应用渐变”更新风扇和水泵。",
+    "Efecto «{0}» en el lienzo. Pulse Aplicar gradiente para actualizar ventiladores y bomba.",
+    "Efeito «{0}» na tela. Clique em Aplicar gradiente para atualizar ventoinhas e bomba."
+  ],
+  "Standard gradient. Click Apply gradient to update fans.": [
+    "Обычный градиент. На вентиляторы — кнопкой «Применить градиент».",
+    "标准渐变。点击“应用渐变”更新风扇。",
+    "Gradiente normal. Pulse Aplicar gradiente para actualizar ventiladores.",
+    "Gradiente padrão. Clique em Aplicar gradiente para atualizar as ventoinhas."
+  ],
+  "Palette for effect “{0}” changed.": [
+    "Палитра эффекта «{0}» изменена.",
+    "效果“{0}”的调色板已更改。",
+    "Paleta del efecto «{0}» modificada.",
+    "Paleta do efeito «{0}» alterada."
+  ],
+  "Gradient changed.": [
+    "Градиент изменён.",
+    "渐变已更改。",
+    "Gradiente modificado.",
+    "Gradiente alterado."
+  ],
+  " Click Apply gradient to update fans.": [
+    " Нажмите «Применить градиент», чтобы отправить на вентиляторы.",
+    " 点击“应用渐变”更新风扇。",
+    " Pulse Aplicar gradiente para actualizar ventiladores.",
+    " Clique em Aplicar gradiente para atualizar as ventoinhas."
+  ],
+  "Controller ready, but no paired groups found yet. Reconnect later.": [
+    "Контроллер доступен, привязанные группы пока не найдены. Повторите подключение позже.",
+    "控制器已就绪，但尚未找到配对组。请稍后重连。",
+    "Controlador listo, sin grupos vinculados aún. Reconecte más tarde.",
+    "Controlador pronto, sem grupos emparelhados ainda. Reconecte mais tarde."
+  ],
+  "{0}: {1} fans, types {2}": [
+    "{0}: {1} вент., типы {2}",
+    "{0}：{1} 个风扇，类型 {2}",
+    "{0}: {1} ventiladores, tipos {2}",
+    "{0}: {1} ventoinhas, tipos {2}"
+  ],
+  " (LED layout from upstream, not verified on hardware)": [
+    " (раскладка LED по upstream, на железе не проверена)",
+    "（LED 布局来自 upstream，未在硬件上验证）",
+    " (distribución de LED de upstream, sin verificar en hardware)",
+    " (layout de LEDs do upstream, não verificado no hardware)"
+  ],
+  ", RGB blocked: unknown model": [
+    ", RGB заблокирован: неизвестная модель",
+    "，RGB 已阻止：未知型号",
+    ", RGB bloqueado: modelo desconocido",
+    ", RGB bloqueado: modelo desconhecido"
+  ],
+  "Startup: OpenRGB device list refresh requested after services started.": [
+    "Запуск: запрошено обновление списка устройств OpenRGB после запуска служб.",
+    "启动：服务启动后已请求刷新 OpenRGB 设备列表。",
+    "Inicio: actualización de dispositivos OpenRGB solicitada tras iniciar servicios.",
+    "Inicialização: atualização dos dispositivos OpenRGB solicitada após iniciar os serviços."
+  ],
+  "CPU sensor started": [
+    "датчик CPU запущен",
+    "CPU 传感器已启动",
+    "sensor CPU iniciado",
+    "sensor CPU iniciado"
+  ],
+  "OpenRGB started": [
+    "OpenRGB запущен",
+    "OpenRGB 已启动",
+    "OpenRGB iniciado",
+    "OpenRGB iniciado"
+  ],
+  "Startup: USB attempt {0}: {1}": [
+    "Запуск: USB, попытка {0}: {1}",
+    "启动：USB 尝试 {0}：{1}",
+    "Inicio: intento USB {0}: {1}",
+    "Inicialização: tentativa USB {0}: {1}"
+  ],
+  "Startup: waiting for L-Wireless USB, attempt {0} of 6…": [
+    "Запуск: ждём USB L-Wireless, попытка {0} из 6…",
+    "启动：等待 L-Wireless USB，第 {0}/6 次尝试…",
+    "Inicio: esperando USB L-Wireless, intento {0} de 6…",
+    "Inicialização: aguardando USB L-Wireless, tentativa {0} de 6…"
+  ],
+  "Startup: ": [
+    "Запуск: ",
+    "启动：",
+    "Inicio: ",
+    "Inicialização: "
+  ],
+  "Application closed; services stopped.": [
+    "Программа закрыта: службы остановлены.",
+    "应用已关闭，服务已停止。",
+    "Aplicación cerrada; servicios detenidos.",
+    "Aplicativo fechado; serviços interrompidos."
+  ],
+  "administrator": [
+    "права администратора",
+    "管理员权限",
+    "administrador",
+    "administrador"
+  ],
+  "no administrator rights": [
+    "без прав администратора",
+    "非管理员权限",
+    "sin permisos de administrador",
+    "sem privilégios de administrador"
+  ],
+  "CPU sensor running": [
+    "датчик CPU работает",
+    "CPU 传感器运行中",
+    "sensor CPU activo",
+    "sensor CPU ativo"
+  ],
+  "CPU sensor not running": [
+    "датчик CPU не работает",
+    "CPU 传感器未运行",
+    "sensor CPU inactivo",
+    "sensor CPU inativo"
+  ],
+  "OpenRGB running": [
+    "OpenRGB работает",
+    "OpenRGB 运行中",
+    "OpenRGB activo",
+    "OpenRGB ativo"
+  ],
+  "OpenRGB not running": [
+    "OpenRGB не запущен",
+    "OpenRGB 未运行",
+    "OpenRGB inactivo",
+    "OpenRGB inativo"
+  ],
+  "managed screens {0}": [
+    "экранов под управлением {0}",
+    "受控屏幕 {0} 个",
+    "pantallas controladas {0}",
+    "telas controladas {0}"
+  ],
+  "pump: fixed RPM": [
+    "насос: постоянные обороты",
+    "水泵：固定转速",
+    "bomba: RPM fijas",
+    "bomba: RPM fixas"
+  ],
+  "Working…": [
+    "Выполняется…",
+    "正在处理…",
+    "Procesando…",
+    "Processando…"
+  ],
+  "Operation incomplete": [
+    "Операция не завершена",
+    "操作未完成",
+    "Operación incompleta",
+    "Operação incompleta"
+  ],
+  "Connect USB first.": [
+    "Сначала подключите USB.",
+    "请先连接 USB。",
+    "Conecte USB primero.",
+    "Conecte o USB primeiro."
+  ],
+  "Uploading pump RGB · waiting for USB recovery…": [
+    "Загрузка RGB помпы · ожидается восстановление USB…",
+    "正在上传水泵 RGB · 等待 USB 恢复…",
+    "Cargando RGB de bomba · esperando recuperación USB…",
+    "Carregando RGB da bomba · aguardando recuperação USB…"
+  ],
+  "JSON profile|*.json": [
+    "Профиль JSON|*.json",
+    "JSON 配置|*.json",
+    "Perfil JSON|*.json",
+    "Perfil JSON|*.json"
+  ],
+  "Profile saved.": [
+    "Профиль сохранён.",
+    "配置已保存。",
+    "Perfil guardado.",
+    "Perfil salvo."
+  ],
+  "Profile loaded. Click Apply gradient to send it.": [
+    "Профиль загружен. Для передачи нажмите «Применить градиент».",
+    "配置已加载。点击“应用渐变”发送。",
+    "Perfil cargado. Pulse Aplicar gradiente para enviarlo.",
+    "Perfil carregado. Clique em Aplicar gradiente para enviar."
+  ],
+  "JSON diagnostics|*.json": [
+    "Диагностика JSON|*.json",
+    "JSON 诊断|*.json",
+    "Diagnóstico JSON|*.json",
+    "Diagnóstico JSON|*.json"
+  ],
+  "Diagnostics saved. No USB commands sent.": [
+    "Диагностика сохранена. USB-команды не отправлялись.",
+    "诊断已保存。未发送 USB 命令。",
+    "Diagnóstico guardado. No se enviaron comandos USB.",
+    "Diagnóstico salvo. Nenhum comando USB enviado."
+  ],
+  "Connect USB and discover wireless fan groups first.": [
+    "Сначала подключите USB и обнаружьте беспроводные группы вентиляторов.",
+    "请先连接 USB 并发现无线风扇组。",
+    "Conecte USB y detecte primero los grupos de ventiladores inalámbricos.",
+    "Conecte o USB e detecte primeiro os grupos de ventoinhas sem fio."
+  ],
+  "In OpenRGB: SDK Client → 127.0.0.1, port 6743 → Connect. Total output limit: 5 FPS.": [
+    "В OpenRGB: SDK Client → 127.0.0.1, порт 6743 → Connect. Предел передачи на все группы: 5 FPS.",
+    "OpenRGB 中：SDK Client → 127.0.0.1，端口 6743 → Connect。总输出上限 5 FPS。",
+    "En OpenRGB: SDK Client → 127.0.0.1, puerto 6743 → Connect. Límite total: 5 FPS.",
+    "No OpenRGB: SDK Client → 127.0.0.1, porta 6743 → Connect. Limite total: 5 FPS."
+  ],
+  "Startup disabled.": [
+    "Автозапуск выключен.",
+    "自动启动已关闭。",
+    "Inicio automático desactivado.",
+    "Inicialização automática desativada."
+  ],
+  "Gradient on case": [
+    "Градиент на корпусе",
+    "机箱渐变",
+    "Gradiente en la caja",
+    "Gradiente no gabinete"
+  ],
+  "CASE CANVAS": [
+    "ХОЛСТ КОРПУСА",
+    "机箱画布",
+    "LIENZO DE LA CAJA",
+    "TELA DO GABINETE"
+  ],
+  "Inner: ": [
+    "Внутренний: ",
+    "内部：",
+    "Interior: ",
+    "Interna: "
+  ],
+  "on": [
+    "включён",
+    "开启",
+    "activado",
+    "ativado"
+  ],
+  "Outer: ": [
+    "Внешний: ",
+    "外部：",
+    "Exterior: ",
+    "Externa: "
+  ],
+  "Movement tilt · drag arrow": [
+    "Наклон движения · тяните стрелку",
+    "运动倾斜 · 拖动箭头",
+    "Inclinación · arrastre la flecha",
+    "Inclinação · arraste a seta"
+  ],
+  " · off": [
+    " · выкл",
+    " · 关",
+    " · apagado",
+    " · desligado"
+  ],
+  "Invalid OpenRGB signature.": [
+    "Неверная сигнатура OpenRGB.",
+    "OpenRGB 签名无效。",
+    "Firma OpenRGB inválida.",
+    "Assinatura OpenRGB inválida."
+  ],
+  "OpenRGB packet exceeds the size limit.": [
+    "Пакет OpenRGB превышает допустимый размер.",
+    "OpenRGB 数据包超出大小限制。",
+    "Paquete OpenRGB demasiado grande.",
+    "Pacote OpenRGB grande demais."
+  ],
+  "Invalid SDK version.": [
+    "Неверная версия SDK.",
+    "SDK 版本无效。",
+    "Versión SDK inválida.",
+    "Versão SDK inválida."
+  ],
+  "Invalid RGB packet length.": [
+    "Неверная длина RGB-пакета.",
+    "RGB 数据包长度无效。",
+    "Longitud de paquete RGB inválida.",
+    "Comprimento de pacote RGB inválido."
+  ],
+  "Invalid LED count.": [
+    "Неверное число светодиодов.",
+    "LED 数量无效。",
+    "Número de LED inválido.",
+    "Quantidade de LEDs inválida."
+  ],
+  "Invalid OpenRGB device placement.": [
+    "Некорректное размещение устройства OpenRGB.",
+    "OpenRGB 设备布局无效。",
+    "Posición de dispositivo OpenRGB inválida.",
+    "Posição de dispositivo OpenRGB inválida."
+  ],
+  "OpenRGB: connecting…": [
+    "OpenRGB: подключение…",
+    "OpenRGB：正在连接…",
+    "OpenRGB: conectando…",
+    "OpenRGB: conectando…"
+  ],
+  "OpenRGB: {0} devices found, sending to {1}": [
+    "OpenRGB: найдено устройств {0}, передаётся {1}",
+    "OpenRGB：已找到 {0} 个设备，正在向 {1} 个发送",
+    "OpenRGB: {0} dispositivos encontrados, enviando a {1}",
+    "OpenRGB: {0} dispositivos encontrados, enviando para {1}"
+  ],
+  " · fan clock phase": [
+    " · фаза по часам вентиляторов",
+    " · 风扇时钟相位",
+    " · fase del reloj de ventiladores",
+    " · fase do relógio das ventoinhas"
+  ],
+  " · local clock (fans not loaded)": [
+    " · локальные часы (вентиляторы не загружены)",
+    " · 本地时钟（风扇未加载）",
+    " · reloj local (ventiladores sin cargar)",
+    " · relógio local (ventoinhas não carregadas)"
+  ],
+  " · WARNING: {0} OpenRGB instances running; click Restart OpenRGB": [
+    " · ВНИМАНИЕ: запущено {0} экземпляра OpenRGB, нажмите «Перезапустить OpenRGB»",
+    " · 警告：有 {0} 个 OpenRGB 实例运行，请点击“重启 OpenRGB”",
+    " · AVISO: {0} instancias de OpenRGB; pulse Reiniciar OpenRGB",
+    " · AVISO: {0} instâncias do OpenRGB; clique em Reiniciar OpenRGB"
+  ],
+  "OpenRGB unavailable: ": [
+    "OpenRGB недоступен: ",
+    "OpenRGB 不可用：",
+    "OpenRGB no disponible: ",
+    "OpenRGB indisponível: "
+  ],
+  " Retrying in 3 s.": [
+    " Повтор через 3 с.",
+    " 3 秒后重试。",
+    " Reintento en 3 s.",
+    " Nova tentativa em 3 s."
+  ],
+  "OpenRGB is already running. If memory is missing, click Restart OpenRGB.": [
+    "OpenRGB уже запущен. Если память не видна, нажмите «Перезапустить OpenRGB».",
+    "OpenRGB 已运行。如果内存未显示，请点击“重启 OpenRGB”。",
+    "OpenRGB ya está activo. Si falta la memoria, pulse Reiniciar OpenRGB.",
+    "O OpenRGB já está ativo. Se a memória não aparecer, clique em Reiniciar OpenRGB."
+  ],
+  "OpenRGB not found. Install OpenRGB or L-Connect 3 with its OpenRGB module.": [
+    "OpenRGB не найден. Установите OpenRGB или L-Connect 3 с модулем OpenRGB.",
+    "未找到 OpenRGB。请安装 OpenRGB 或带 OpenRGB 模块的 L-Connect 3。",
+    "OpenRGB no encontrado. Instale OpenRGB o L-Connect 3 con su módulo OpenRGB.",
+    "OpenRGB não encontrado. Instale o OpenRGB ou o L-Connect 3 com seu módulo OpenRGB."
+  ],
+  "OpenRGB could not be stopped: ": [
+    "OpenRGB не остановлен: ",
+    "无法停止 OpenRGB：",
+    "No se pudo detener OpenRGB: ",
+    "Não foi possível parar o OpenRGB: "
+  ],
+  "OpenRGB stopped: {0}": [
+    "OpenRGB остановлен: {0}",
+    "OpenRGB 已停止：{0}",
+    "OpenRGB detenido: {0}",
+    "OpenRGB interrompido: {0}"
+  ],
+  "OpenRGB administrator startup cancelled.": [
+    "Запуск OpenRGB от администратора отменён.",
+    "已取消以管理员权限启动 OpenRGB。",
+    "Inicio de OpenRGB como administrador cancelado.",
+    "Inicialização do OpenRGB como administrador cancelada."
+  ],
+  "Memory": [
+    "Память",
+    "内存",
+    "Memoria",
+    "Memória"
+  ],
+  "Motherboard": [
+    "Материнская плата",
+    "主板",
+    "Placa base",
+    "Placa-mãe"
+  ],
+  "Type {0}": [
+    "Тип {0}",
+    "类型 {0}",
+    "Tipo {0}",
+    "Tipo {0}"
+  ],
+  "OpenRGB not responding at {0}:{1}. Start OpenRGB with the SDK server enabled.": [
+    "OpenRGB не отвечает на {0}:{1}. Запустите OpenRGB с включённым SDK-сервером.",
+    "OpenRGB 在 {0}:{1} 未响应。请启用 SDK 服务器后启动 OpenRGB。",
+    "OpenRGB no responde en {0}:{1}. Inícielo con el servidor SDK activado.",
+    "OpenRGB não responde em {0}:{1}. Inicie com o servidor SDK ativado."
+  ],
+  "OpenRGB unavailable at {0}:{1}: {2}": [
+    "OpenRGB недоступен на {0}:{1}: {2}",
+    "OpenRGB 在 {0}:{1} 不可用：{2}",
+    "OpenRGB no disponible en {0}:{1}: {2}",
+    "OpenRGB indisponível em {0}:{1}: {2}"
+  ],
+  "Invalid OpenRGB device count response.": [
+    "Неверный ответ числа устройств OpenRGB.",
+    "OpenRGB 设备数量响应无效。",
+    "Respuesta de cantidad de dispositivos OpenRGB inválida.",
+    "Resposta de quantidade de dispositivos OpenRGB inválida."
+  ],
+  "Invalid RGB frame.": [
+    "Неверный RGB-кадр.",
+    "RGB 帧无效。",
+    "Fotograma RGB inválido.",
+    "Quadro RGB inválido."
+  ],
+  "Invalid OpenRGB response signature.": [
+    "Неверная сигнатура ответа OpenRGB.",
+    "OpenRGB 响应签名无效。",
+    "Firma de respuesta OpenRGB inválida.",
+    "Assinatura de resposta OpenRGB inválida."
+  ],
+  "OpenRGB response too large.": [
+    "Слишком большой ответ OpenRGB.",
+    "OpenRGB 响应过大。",
+    "Respuesta OpenRGB demasiado grande.",
+    "Resposta OpenRGB grande demais."
+  ],
+  "Expected OpenRGB response not received.": [
+    "OpenRGB не прислал ожидаемый ответ.",
+    "未收到预期的 OpenRGB 响应。",
+    "No se recibió la respuesta OpenRGB esperada.",
+    "Resposta OpenRGB esperada não recebida."
+  ],
+  "Invalid OpenRGB device description length.": [
+    "Неверная длина описания устройства OpenRGB.",
+    "OpenRGB 设备描述长度无效。",
+    "Longitud de descripción de dispositivo OpenRGB inválida.",
+    "Comprimento da descrição de dispositivo OpenRGB inválido."
+  ],
+  "Invalid OpenRGB zone matrix.": [
+    "Неверная матрица зоны OpenRGB.",
+    "OpenRGB 区域矩阵无效。",
+    "Matriz de zona OpenRGB inválida.",
+    "Matriz de zona OpenRGB inválida."
+  ],
+  "Custom color": [
+    "Свой цвет",
+    "自定义颜色",
+    "Color propio",
+    "Cor própria"
+  ],
+  "Off": [
+    "Выключено",
+    "关闭",
+    "Apagado",
+    "Desligado"
+  ],
+  "Board": [
+    "Мат. плата",
+    "主板",
+    "Placa base",
+    "Placa-mãe"
+  ],
+  "Auto": [
+    "Авто",
+    "自动",
+    "Auto",
+    "Auto"
+  ],
+  "Send case gradient to OpenRGB (127.0.0.1:6742)": [
+    "Передавать общий градиент в OpenRGB (127.0.0.1:6742)",
+    "向 OpenRGB 发送机箱渐变（127.0.0.1:6742）",
+    "Enviar gradiente de la caja a OpenRGB (127.0.0.1:6742)",
+    "Enviar gradiente do gabinete ao OpenRGB (127.0.0.1:6742)"
+  ],
+  "Start OpenRGB without admin rights too (UAC prompt)": [
+    "Без прав администратора тоже запускать OpenRGB при старте (запрос UAC)",
+    "非管理员启动时也启动 OpenRGB（UAC 提示）",
+    "Iniciar OpenRGB también sin permisos de administrador (UAC)",
+    "Iniciar OpenRGB também sem privilégios de administrador (UAC)"
+  ],
+  "Start OpenRGB as administrator": [
+    "Запустить OpenRGB от администратора",
+    "以管理员权限启动 OpenRGB",
+    "Iniciar OpenRGB como administrador",
+    "Iniciar OpenRGB como administrador"
+  ],
+  "OpenRGB starting. Device discovery takes about 10 seconds.": [
+    "OpenRGB запускается. Обнаружение устройств занимает около 10 секунд.",
+    "OpenRGB 正在启动。设备发现约需 10 秒。",
+    "OpenRGB iniciándose. La detección tarda unos 10 segundos.",
+    "OpenRGB iniciando. A detecção leva cerca de 10 segundos."
+  ],
+  "Restart OpenRGB": [
+    "Перезапустить OpenRGB",
+    "重启 OpenRGB",
+    "Reiniciar OpenRGB",
+    "Reiniciar OpenRGB"
+  ],
+  "Restarting a single OpenRGB instance. Device list refreshes in about 10 seconds.": [
+    "OpenRGB перезапускается одним экземпляром. Через ~10 секунд список обновится сам.",
+    "正在重启单个 OpenRGB 实例。设备列表约 10 秒后刷新。",
+    "Reiniciando una sola instancia de OpenRGB. La lista se actualizará en unos 10 segundos.",
+    "Reiniciando uma única instância do OpenRGB. A lista será atualizada em cerca de 10 segundos."
+  ],
+  "Refresh devices": [
+    "Обновить список",
+    "刷新设备",
+    "Actualizar dispositivos",
+    "Atualizar dispositivos"
+  ],
+  "Device list requested.": [
+    "Запрошен список устройств.",
+    "已请求设备列表。",
+    "Lista de dispositivos solicitada.",
+    "Lista de dispositivos solicitada."
+  ],
+  "Type": [
+    "Тип",
+    "类型",
+    "Tipo",
+    "Tipo"
+  ],
+  "Device": [
+    "Устройство",
+    "设备",
+    "Dispositivo",
+    "Dispositivo"
+  ],
+  "Mode": [
+    "Режим",
+    "模式",
+    "Modo",
+    "Modo"
+  ],
+  "Reverse": [
+    "Обратный",
+    "反转",
+    "Invertir",
+    "Inverter"
+  ],
+  "Brightness must be an integer from 0 to 100.": [
+    "Яркость — целое число от 0 до 100.",
+    "亮度须为 0 至 100 的整数。",
+    "El brillo debe ser un entero de 0 a 100.",
+    "O brilho deve ser um inteiro de 0 a 100."
+  ],
+  "Memory requires OpenRGB running as administrator (PawnIO). Auto mode uses Static for memory (Direct ignores its colors), Direct for other devices. ": [
+    "Память видна в OpenRGB только при запуске от администратора (драйвер PawnIO). Режим «Авто»: память — Static (её Direct игнорирует цвета), остальное — Direct. ",
+    "内存需要以管理员权限运行 OpenRGB（PawnIO）。自动模式对内存使用 Static（Direct 会忽略颜色），对其他设备使用 Direct。",
+    "La memoria necesita OpenRGB como administrador (PawnIO). Auto usa Static para memoria (Direct ignora sus colores) y Direct para otros dispositivos. ",
+    "A memória precisa do OpenRGB como administrador (PawnIO). Auto usa Static para memória (Direct ignora suas cores) e Direct para outros dispositivos. "
+  ],
+  "Gigabyte GPUs may appear twice; enable one entry only. Close GPU lighting control in Gigabyte Control Center. ": [
+    "Видеокарта Gigabyte регистрируется дважды — включайте одну строку. Закройте управление подсветкой видеокарты в Gigabyte Control Center. ",
+    "Gigabyte 显卡可能显示两次；请仅启用一项。关闭 Gigabyte Control Center 的显卡灯光控制。",
+    "Las GPU Gigabyte pueden aparecer dos veces; active solo una fila. Cierre el control RGB de GPU en Gigabyte Control Center. ",
+    "GPUs Gigabyte podem aparecer duas vezes; ative apenas uma linha. Feche o controle RGB da GPU no Gigabyte Control Center. "
+  ],
+  "Drag devices on the Mapping canvas. Right-click to turn off or set a custom color. OpenRGB changes apply immediately.": [
+    "Положение — перетаскиванием на холсте «Маппинг»; там же правой кнопкой можно выключить элемент или задать ему свой цвет. Изменения OpenRGB применяются сразу.",
+    "在映射画布中拖动设备。右键可关闭或设置颜色。OpenRGB 更改立即生效。",
+    "Arrastre dispositivos en Mapeo. Clic derecho para apagar o elegir color. Los cambios OpenRGB se aplican al instante.",
+    "Arraste dispositivos em Mapeamento. Botão direito para desligar ou escolher a cor. Alterações OpenRGB são imediatas."
+  ],
+  "OpenRGB output disabled. “—” under LED means the device is currently absent from OpenRGB.": [
+    "Передача в OpenRGB выключена. «—» в столбце LED: устройство сейчас не найдено в OpenRGB.",
+    "OpenRGB 输出已关闭。LED 栏中的“—”表示 OpenRGB 当前未找到该设备。",
+    "Salida OpenRGB desactivada. «—» en LED indica que el dispositivo no está disponible en OpenRGB.",
+    "Saída OpenRGB desativada. «—» em LED indica que o dispositivo não está disponível no OpenRGB."
+  ],
+  "Saved profile does not match the case groups.": [
+    "Сохранённый профиль не соответствует группам корпуса.",
+    "已保存的配置与机箱设备组不匹配。",
+    "El perfil guardado no coincide con los grupos de la caja.",
+    "O perfil salvo não corresponde aos grupos do gabinete."
+  ],
+  "Close other LianLi.Windows instances before radio diagnostics.": [
+    "Закройте другие экземпляры LianLi.Windows перед диагностикой радио.",
+    "无线诊断前请关闭其他 LianLi.Windows 实例。",
+    "Cierre otras instancias de LianLi.Windows antes del diagnóstico de radio.",
+    "Feche outras instâncias do LianLi.Windows antes do diagnóstico de rádio."
+  ],
+  "Device has no {0} mode with per-LED colors.": [
+    "У устройства нет режима {0} с цветом на каждый LED.",
+    "设备没有支持逐 LED 颜色的 {0} 模式。",
+    "El dispositivo no tiene modo {0} con colores por LED.",
+    "O dispositivo não tem modo {0} com cores por LED."
+  ],
+  "HydroShift II LCD-C · preview": [
+    "HydroShift II LCD-C · предпросмотр",
+    "HydroShift II LCD-C · 预览",
+    "HydroShift II LCD-C · vista previa",
+    "HydroShift II LCD-C · prévia"
+  ],
+  "Application is already running.": [
+    "Приложение уже запущено.",
+    "应用已在运行。",
+    "La aplicación ya está en ejecución.",
+    "O aplicativo já está em execução."
+  ],
+  "Error": [
+    "Ошибка",
+    "错误",
+    "Error",
+    "Erro"
+  ],
+  "Invalid RGB data size.": [
+    "Некорректный объём RGB-данных.",
+    "RGB 数据大小无效。",
+    "Tamaño de datos RGB inválido.",
+    "Tamanho de dados RGB inválido."
+  ],
+  "tinyuz compression error.": [
+    "Ошибка tinyuz.",
+    "tinyuz 压缩错误。",
+    "Error de compresión tinyuz.",
+    "Erro de compressão tinyuz."
+  ],
+  "tinyuz decompression error: {0}.": [
+    "Ошибка распаковки tinyuz: {0}.",
+    "tinyuz 解压错误：{0}。",
+    "Error de descompresión tinyuz: {0}.",
+    "Erro de descompressão tinyuz: {0}."
+  ],
+  "Invalid RGB cycle format.": [
+    "Недопустимый формат RGB-цикла.",
+    "RGB 循环格式无效。",
+    "Formato de ciclo RGB inválido.",
+    "Formato de ciclo RGB inválido."
+  ],
+  "RGB cycle or address exceeds safe limits.": [
+    "RGB-цикл или адрес вне безопасных границ.",
+    "RGB 循环或地址超出安全限制。",
+    "Ciclo RGB o dirección fuera de los límites seguros.",
+    "Ciclo RGB ou endereço fora dos limites seguros."
+  ],
+  "Invalid MAC address.": [
+    "Некорректный MAC.",
+    "MAC 地址无效。",
+    "Dirección MAC inválida.",
+    "Endereço MAC inválido."
+  ],
+  "No confirmed devices for this scene.": [
+    "Нет подтверждённых устройств для сцены.",
+    "此场景没有已确认的设备。",
+    "No hay dispositivos confirmados para esta escena.",
+    "Não há dispositivos confirmados para esta cena."
+  ],
+  "Pump needs a higher FPS for this cycle. Increase FPS or shorten the cycle.": [
+    "Для этого цикла помпе нужен более высокий FPS. Увеличьте FPS или сократите цикл.",
+    "此周期需要更高的水泵 FPS。请提高 FPS 或缩短周期。",
+    "La bomba necesita más FPS para este ciclo. Aumente FPS o acorte el ciclo.",
+    "A bomba precisa de mais FPS para este ciclo. Aumente os FPS ou encurte o ciclo."
+  ],
+  "Gradient exceeds device memory.": [
+    "Градиент не помещается в память устройства.",
+    "渐变超出设备内存。",
+    "El gradiente excede la memoria del dispositivo.",
+    "O gradiente excede a memória do dispositivo."
+  ],
+  "Pump · HydroShift II LCD-C": [
+    "Помпа · HydroShift II LCD-C",
+    "水泵 · HydroShift II LCD-C",
+    "Bomba · HydroShift II LCD-C",
+    "Bomba · HydroShift II LCD-C"
+  ],
+  "Ring lighting enabled": [
+    "Подсветка кольца включена",
+    "启用灯环",
+    "Iluminación del anillo activada",
+    "Iluminação do anel ativada"
+  ],
+  "Diameter": [
+    "Диаметр",
+    "直径",
+    "Diámetro",
+    "Diâmetro"
+  ],
+  "LED rotation, °": [
+    "Поворот LED, °",
+    "LED 旋转，°",
+    "Rotación LED, °",
+    "Rotação LED, °"
+  ],
+  "Phase offset, s": [
+    "Сдвиг фазы, с",
+    "相位偏移，秒",
+    "Desfase, s",
+    "Deslocamento de fase, s"
+  ],
+  "Drag the ring on the canvas to reposition it.\nPalette and brightness: Lighting layers.\nVia L-Wireless, ring and fans share the upload.\nUSB RGB upload briefly pauses the LCD.\nClick Apply gradient to send changes.": [
+    "Положение можно менять перетаскиванием кольца на холсте.\nПалитра и яркость находятся в «Слои подсветки».\nПо радио L-Wireless кольцо загружается вместе с вентиляторами;\nпо USB загрузка включает короткую служебную паузу LCD.\nИзменения отправляются кнопкой «Применить градиент».",
+    "在画布中拖动灯环调整位置。\n调色板和亮度位于“灯光层”。\nL-Wireless 同时上传灯环和风扇。\nUSB RGB 上传会短暂停止 LCD。\n点击“应用渐变”发送更改。",
+    "Arrastre el anillo en el lienzo para moverlo.\nPaleta y brillo: Capas de iluminación.\nL-Wireless carga anillo y ventiladores juntos.\nLa carga RGB por USB pausa brevemente la pantalla.\nPulse Aplicar gradiente para enviar cambios.",
+    "Arraste o anel na tela para movê-lo.\nPaleta e brilho: Camadas de iluminação.\nL-Wireless carrega anel e ventoinhas juntos.\nO envio RGB por USB pausa brevemente a tela.\nClique em Aplicar gradiente para enviar alterações."
+  ],
+  "Could not create RGB transfer timer.": [
+    "Не удалось создать таймер передачи RGB.",
+    "无法创建 RGB 传输计时器。",
+    "No se pudo crear el temporizador RGB.",
+    "Não foi possível criar o temporizador RGB."
+  ],
+  "Windows did not complete the RGB timer wait.": [
+    "Windows не завершила ожидание таймера RGB.",
+    "Windows 未完成 RGB 计时器等待。",
+    "Windows no completó la espera del temporizador RGB.",
+    "O Windows não concluiu a espera do temporizador RGB."
+  ],
+  "Incomplete RGB USB packet.": [
+    "Неполный USB-пакет RGB.",
+    "RGB USB 数据包不完整。",
+    "Paquete USB RGB incompleto.",
+    "Pacote USB RGB incompleto."
+  ],
+  "RGB upload timed out: {0}/{1} RF packets in {2:F1} s (limit {3:F1} s).": [
+    "Превышено время загрузки RGB: {0}/{1} RF-пакетов за {2:F1} с (лимит {3:F1} с).",
+    "RGB 上传超时：{2:F1} 秒内发送 {0}/{1} 个 RF 包（上限 {3:F1} 秒）。",
+    "Tiempo RGB agotado: {0}/{1} paquetes RF en {2:F1} s (límite {3:F1} s).",
+    "Tempo RGB esgotado: {0}/{1} pacotes RF em {2:F1} s (limite {3:F1} s)."
+  ],
+  "Image": [
+    "Картинка",
+    "图片",
+    "Imagen",
+    "Imagem"
+  ],
+  "Sensor": [
+    "Датчик",
+    "传感器",
+    "Sensor",
+    "Sensor"
+  ],
+  "Invalid screen settings: ": [
+    "Некорректные настройки экрана ",
+    "屏幕设置无效：",
+    "Ajustes de pantalla inválidos: ",
+    "Configurações de tela inválidas: "
+  ],
+  "Frame size does not match the screen.": [
+    "Размер кадра не совпадает с экраном.",
+    "帧大小与屏幕不匹配。",
+    "El tamaño del fotograma no coincide con la pantalla.",
+    "O tamanho do quadro não corresponde à tela."
+  ],
+  "Frame exceeds {0} KB even at JPEG quality {1}.": [
+    "Кадр не помещается в {0} КБ даже при качестве JPEG {1}.",
+    "即使 JPEG 质量为 {1}，帧仍超过 {0} KB。",
+    "El fotograma supera {0} KB incluso con calidad JPEG {1}.",
+    "O quadro supera {0} KB mesmo com qualidade JPEG {1}."
+  ],
+  "Image file not found: ": [
+    "Файл картинки не найден: ",
+    "未找到图片文件：",
+    "Archivo de imagen no encontrado: ",
+    "Arquivo de imagem não encontrado: "
+  ],
+  "File exceeds 64 MB.": [
+    "Файл больше 64 МБ.",
+    "文件超过 64 MB。",
+    "El archivo supera 64 MB.",
+    "O arquivo supera 64 MB."
+  ],
+  "GIF file not found: ": [
+    "Файл GIF не найден: ",
+    "未找到 GIF 文件：",
+    "Archivo GIF no encontrado: ",
+    "Arquivo GIF não encontrado: "
+  ],
+  "GIF contains no frames.": [
+    "В GIF нет кадров.",
+    "GIF 没有帧。",
+    "El GIF no contiene fotogramas.",
+    "O GIF não contém quadros."
+  ],
+  "LCD {0}: screen prepared, firmware {1}": [
+    "LCD {0}: экран подготовлен, прошивка {1}",
+    "LCD {0}：屏幕已准备，固件 {1}",
+    "LCD {0}: pantalla preparada, firmware {1}",
+    "LCD {0}: tela preparada, firmware {1}"
+  ],
+  "no reply": [
+    "не ответила",
+    "无响应",
+    "sin respuesta",
+    "sem resposta"
+  ],
+  "Pump did not acknowledge PNG clearing; screen setup will be retried.": [
+    "Помпа не подтвердила очистку PNG-слоя; подготовка экрана будет повторена.",
+    "水泵未确认 PNG 清除，将重新准备屏幕。",
+    "La bomba no confirmó la limpieza PNG; se reintentará la preparación.",
+    "A bomba não confirmou a limpeza PNG; a preparação será repetida."
+  ],
+  "Pump LCD: transparent PNG uploaded, 0x66 reply received": [
+    "LCD помпы: прозрачный PNG-слой загружен, ответ 0x66 получен",
+    "水泵 LCD：透明 PNG 已上传，收到 0x66 响应",
+    "LCD de bomba: PNG transparente cargado, respuesta 0x66 recibida",
+    "LCD da bomba: PNG transparente carregado, resposta 0x66 recebida"
+  ],
+  "Pump LCD: screen prepared, firmware {0}": [
+    "LCD помпы: экран подготовлен, прошивка {0}",
+    "水泵 LCD：屏幕已准备，固件 {0}",
+    "LCD de bomba: pantalla preparada, firmware {0}",
+    "LCD da bomba: tela preparada, firmware {0}"
+  ],
+  "Close L-Connect 3 before screen diagnostics.": [
+    "Закройте L-Connect 3 перед диагностикой экранов.",
+    "屏幕诊断前请关闭 L-Connect 3。",
+    "Cierre L-Connect 3 antes del diagnóstico de pantallas.",
+    "Feche o L-Connect 3 antes do diagnóstico de telas."
+  ],
+  "LCD fan": [
+    "LCD-вентилятор",
+    "LCD 风扇",
+    "Ventilador LCD",
+    "Ventoinha LCD"
+  ],
+  "skipped: no WinUSB interface": [
+    "пропущено: нет интерфейса WinUSB",
+    "已跳过：无 WinUSB 接口",
+    "omitido: sin interfaz WinUSB",
+    "ignorado: sem interface WinUSB"
+  ],
+  "reply received": [
+    "ответ получен",
+    "已收到响应",
+    "respuesta recibida",
+    "resposta recebida"
+  ],
+  "no reply within 1 s": [
+    "нет ответа за 1 с",
+    "1 秒内无响应",
+    "sin respuesta en 1 s",
+    "sem resposta em 1 s"
+  ],
+  "error: ": [
+    "ошибка: ",
+    "错误：",
+    "error: ",
+    "erro: "
+  ],
+  "Only GetVer 0x0A was sent": [
+    "Отправлялся только GetVer 0x0A",
+    "仅发送了 GetVer 0x0A",
+    "Solo se envió GetVer 0x0A",
+    "Apenas GetVer 0x0A foi enviado"
+  ],
+  "waiting": [
+    "ожидание",
+    "等待中",
+    "esperando",
+    "aguardando"
+  ],
+  "unmanaged: app sends nothing to this screen": [
+    "не управляется: программа не отправляет на экран ничего",
+    "不控制：应用不向此屏幕发送内容",
+    "sin control: la aplicación no envía nada a esta pantalla",
+    "sem controle: o aplicativo não envia nada para esta tela"
+  ],
+  "preparing GIF…": [
+    "подготовка GIF…",
+    "正在准备 GIF…",
+    "preparando GIF…",
+    "preparando GIF…"
+  ],
+  "sensor {0}: {1} °C · theme “{2}” · frames {3}": [
+    "датчик {0}: {1} °C · тема «{2}» · кадров {3}",
+    "传感器 {0}：{1} °C · 主题“{2}” · 帧数 {3}",
+    "sensor {0}: {1} °C · tema «{2}» · fotogramas {3}",
+    "sensor {0}: {1} °C · tema «{2}» · quadros {3}"
+  ],
+  "GIF: {0} frames, up to {1} FPS · sent {2}": [
+    "GIF: {0} кадр., до {1} FPS · кадров {2}",
+    "GIF：{0} 帧，最高 {1} FPS · 已发送 {2} 帧",
+    "GIF: {0} fotogramas, hasta {1} FPS · enviados {2}",
+    "GIF: {0} quadros, até {1} FPS · enviados {2}"
+  ],
+  "showing number {0}": [
+    "показан номер {0}",
+    "正在显示编号 {0}",
+    "mostrando número {0}",
+    "mostrando número {0}"
+  ],
+  "off: brightness 0, black frame": [
+    "выключен: яркость 0, чёрный кадр",
+    "关闭：亮度 0，黑色帧",
+    "apagada: brillo 0, fotograma negro",
+    "desligada: brilho 0, quadro preto"
+  ],
+  "image shown · {0} KB": [
+    "картинка показана · {0} КБ",
+    "图片已显示 · {0} KB",
+    "imagen mostrada · {0} KB",
+    "imagem exibida · {0} KB"
+  ],
+  " · retrying in a few seconds": [
+    " · повтор через несколько секунд",
+    " · 数秒后重试",
+    " · reintento en unos segundos",
+    " · nova tentativa em alguns segundos"
+  ],
+  "LCD {0}: worker did not stop within 8 s": [
+    "LCD {0}: поток не завершился за 8 с",
+    "LCD {0}：线程未在 8 秒内停止",
+    "LCD {0}: el proceso no terminó en 8 s",
+    "LCD {0}: o processo não terminou em 8 s"
+  ],
+  "Close L-Connect 3; fan screen cannot be opened.": [
+    "Закройте L-Connect 3: экран вентилятора не открывается.",
+    "请关闭 L-Connect 3；无法打开风扇屏幕。",
+    "Cierre L-Connect 3; no se puede abrir la pantalla del ventilador.",
+    "Feche o L-Connect 3; não é possível abrir a tela da ventoinha."
+  ],
+  "LCD fan ": [
+    "LCD-вентилятор ",
+    "LCD 风扇 ",
+    "Ventilador LCD ",
+    "Ventoinha LCD "
+  ],
+  " not found via USB.": [
+    " не найден по USB.",
+    " 未通过 USB 找到。",
+    " no encontrado por USB.",
+    " não encontrado por USB."
+  ],
+  "Screen not found via USB. Click Connect USB.": [
+    "Экран не найден по USB. Нажмите «Подключить USB».",
+    "未通过 USB 找到屏幕。请点击“连接 USB”。",
+    "Pantalla no encontrada por USB. Pulse Conectar USB.",
+    "Tela não encontrada por USB. Clique em Conectar USB."
+  ],
+  "found · unmanaged": [
+    "найден · не управляется",
+    "已找到 · 不控制",
+    "encontrada · sin control",
+    "encontrada · sem controle"
+  ],
+  "not found via USB": [
+    "не найден по USB",
+    "未通过 USB 找到",
+    "no encontrada por USB",
+    "não encontrada por USB"
+  ],
+  "Screens receive content via USB while the app runs. Unmanaged sends nothing to the screen.": [
+    "Картинка идёт на экраны по USB, пока программа запущена. «Не управлять» — на экран ничего не отправляется.",
+    "应用运行时通过 USB 向屏幕发送内容。“不控制”不会发送任何内容。",
+    "Las pantallas reciben contenido por USB mientras se ejecuta la aplicación. Sin control no envía nada.",
+    "As telas recebem conteúdo por USB enquanto o aplicativo funciona. Sem controle não envia nada."
+  ],
+  "Find screens": [
+    "Найти экраны",
+    "查找屏幕",
+    "Buscar pantallas",
+    "Buscar telas"
+  ],
+  "Preview: screens are not queried.": [
+    "Предпросмотр: экраны не опрашиваются.",
+    "预览：不查询屏幕。",
+    "Vista previa: no se consultan pantallas.",
+    "Prévia: as telas não são consultadas."
+  ],
+  "Screens found: {0}.": [
+    "Найдено экранов: {0}.",
+    "已找到屏幕：{0}。",
+    "Pantallas encontradas: {0}.",
+    "Telas encontradas: {0}."
+  ],
+  "LCD fan {0}": [
+    "LCD-вентилятор {0}",
+    "LCD 风扇 {0}",
+    "Ventilador LCD {0}",
+    "Ventoinha LCD {0}"
+  ],
+  "Fill": [
+    "Заполнить",
+    "填充",
+    "Rellenar",
+    "Preencher"
+  ],
+  "Fit": [
+    "Вписать",
+    "适应",
+    "Ajustar",
+    "Ajustar"
+  ],
+  "Pump · 480×480": [
+    "Помпа · 480×480",
+    "水泵 · 480×480",
+    "Bomba · 480×480",
+    "Bomba · 480×480"
+  ],
+  "LCD fan · 400×400": [
+    "LCD-вентилятор · 400×400",
+    "LCD 风扇 · 400×400",
+    "Ventilador LCD · 400×400",
+    "Ventoinha LCD · 400×400"
+  ],
+  "For example, G1·1 bottom": [
+    "Например, «G1·1 снизу»",
+    "例如“G1·1 底部”",
+    "Por ejemplo, G1·1 abajo",
+    "Por exemplo, G1·1 embaixo"
+  ],
+  "Screen name changed. Saved with Show on screen or Save profile.": [
+    "Имя экрана изменено. Сохраняется кнопкой «Показать на экране» или «Сохранить профиль».",
+    "屏幕名称已更改。点击“显示到屏幕”或“保存配置”保存。",
+    "Nombre cambiado. Se guarda con Mostrar en pantalla o Guardar perfil.",
+    "Nome alterado. Salve com Mostrar na tela ou Salvar perfil."
+  ],
+  "Choose file…": [
+    "Выбрать файл…",
+    "选择文件…",
+    "Elegir archivo…",
+    "Escolher arquivo…"
+  ],
+  "Scale, %": [
+    "Масштаб, %",
+    "缩放，%",
+    "Escala, %",
+    "Escala, %"
+  ],
+  "FPS limit": [
+    "Не чаще, FPS",
+    "FPS 上限",
+    "Límite de FPS",
+    "Limite de FPS"
+  ],
+  "Theme": [
+    "Тема",
+    "主题",
+    "Tema",
+    "Tema"
+  ],
+  "Label: CPU": [
+    "Подпись: CPU",
+    "标签：CPU",
+    "Etiqueta: CPU",
+    "Rótulo: CPU"
+  ],
+  "Scale from": [
+    "Шкала от",
+    "刻度起点",
+    "Escala desde",
+    "Escala de"
+  ],
+  "to, °C": [
+    "до, °C",
+    "至，°C",
+    "hasta, °C",
+    "até, °C"
+  ],
+  "Colors": [
+    "Цвета",
+    "颜色",
+    "Colores",
+    "Cores"
+  ],
+  "Accent": [
+    "Акцент",
+    "强调色",
+    "Acento",
+    "Destaque"
+  ],
+  "palette": [
+    "палитра",
+    "调色板",
+    "paleta",
+    "paleta"
+  ],
+  "Value": [
+    "Число",
+    "数值",
+    "Valor",
+    "Valor"
+  ],
+  "auto": [
+    "авто",
+    "自动",
+    "auto",
+    "auto"
+  ],
+  "Label": [
+    "Подпись",
+    "标签",
+    "Etiqueta",
+    "Rótulo"
+  ],
+  "Accent colors arcs, rings, marks, bars and graph lines. Palette picks a case gradient color from the value on the scale.": [
+    "Акцент — дуга, кольцо, деления, полосы и линия графика. «Палитра» — цвет из градиента корпуса по значению на шкале.",
+    "强调色用于圆弧、圆环、刻度、色条和曲线。“调色板”根据刻度值选择机箱渐变颜色。",
+    "El acento colorea arcos, anillos, marcas, barras y gráficas. Paleta elige un color del gradiente según el valor.",
+    "O destaque colore arcos, anéis, marcas, barras e gráficos. Paleta escolhe uma cor do gradiente conforme o valor."
+  ],
+  "Rotation": [
+    "Поворот",
+    "旋转",
+    "Rotación",
+    "Rotação"
+  ],
+  "Show on screen": [
+    "Показать на экране",
+    "显示到屏幕",
+    "Mostrar en pantalla",
+    "Mostrar na tela"
+  ],
+  "Show number": [
+    "Показать номер",
+    "显示编号",
+    "Mostrar número",
+    "Mostrar número"
+  ],
+  "GIF frame rate is capped at this value to limit screen and USB load.": [
+    "GIF не отправляется чаще этого числа кадров в секунду: экран и USB не перегружаются.",
+    "GIF 帧率不超过此值，以限制屏幕和 USB 负载。",
+    "La tasa GIF se limita a este valor para reducir la carga de pantalla y USB.",
+    "A taxa do GIF é limitada a este valor para reduzir a carga da tela e do USB."
+  ],
+  "Rotate to match the screen orientation in the case.": [
+    "Поворот под то, как экран стоит в корпусе.",
+    "旋转以匹配屏幕在机箱内的方向。",
+    "Gire según la orientación de la pantalla en la caja.",
+    "Gire conforme a orientação da tela no gabinete."
+  ],
+  "no file selected": [
+    "файл не выбран",
+    "未选择文件",
+    "ningún archivo seleccionado",
+    "nenhum arquivo selecionado"
+  ],
+  "Preview updates immediately. Click Show on screen to send.": [
+    "Изменения видны в предпросмотре. На экран — кнопкой «Показать на экране».",
+    "预览立即更新。点击“显示到屏幕”发送。",
+    "La vista previa cambia al instante. Pulse Mostrar en pantalla para enviar.",
+    "A prévia muda imediatamente. Clique em Mostrar na tela para enviar."
+  ],
+  "GIF animation|*.gif": [
+    "Анимация GIF|*.gif",
+    "GIF 动画|*.gif",
+    "Animación GIF|*.gif",
+    "Animação GIF|*.gif"
+  ],
+  "Images|*.png;*.jpg;*.jpeg;*.bmp;*.gif": [
+    "Картинки|*.png;*.jpg;*.jpeg;*.bmp;*.gif",
+    "图片|*.png;*.jpg;*.jpeg;*.bmp;*.gif",
+    "Imágenes|*.png;*.jpg;*.jpeg;*.bmp;*.gif",
+    "Imagens|*.png;*.jpg;*.jpeg;*.bmp;*.gif"
+  ],
+  "Preview: nothing is sent to screens.": [
+    "Предпросмотр: на экраны ничего не отправляется.",
+    "预览：不向屏幕发送内容。",
+    "Vista previa: no se envía nada a las pantallas.",
+    "Prévia: nada é enviado às telas."
+  ],
+  "App stopped sending frames; the screen retains its last image.": [
+    "Экран больше не получает кадры от программы; на нём остаётся последнее изображение.",
+    "应用已停止发送帧，屏幕保留最后一张图像。",
+    "La aplicación dejó de enviar fotogramas; la pantalla conserva la última imagen.",
+    "O aplicativo parou de enviar quadros; a tela mantém a última imagem."
+  ],
+  "“{0}”: settings sent, profile saved. Check the screen visually.": [
+    "«{0}»: настройки отправлены, профиль сохранён. Проверьте экран визуально.",
+    "“{0}”：设置已发送，配置已保存。请观察屏幕。",
+    "«{0}»: ajustes enviados, perfil guardado. Compruebe la pantalla.",
+    "«{0}»: configurações enviadas, perfil salvo. Verifique a tela."
+  ],
+  "“{0}” displays {1} for 8 seconds. Identify the fan and name it, e.g. G1·1 bottom.": [
+    "На «{0}» 8 секунд показывается цифра {1}. Посмотрите, какой это вентилятор, и впишите имя, например «G1·1 снизу».",
+    "“{0}”将显示 {1} 共 8 秒。请识别风扇并命名，例如“G1·1 底部”。",
+    "«{0}» muestra {1} durante 8 segundos. Identifique el ventilador y nómbrelo, p. ej. G1·1 abajo.",
+    "«{0}» mostra {1} por 8 segundos. Identifique a ventoinha e nomeie, por exemplo, G1·1 embaixo."
+  ],
+  "Choose a file": [
+    "Выберите файл",
+    "选择文件",
+    "Elija un archivo",
+    "Escolha um arquivo"
+  ],
+  "GIF · first frame": [
+    "GIF · первый кадр",
+    "GIF · 第一帧",
+    "GIF · primer fotograma",
+    "GIF · primeiro quadro"
+  ],
+  "preview": [
+    "предпросмотр",
+    "预览",
+    "vista previa",
+    "prévia"
+  ],
+  "{0}: click to choose color": [
+    "{0}: щелчок — выбрать цвет",
+    "{0}：点击选择颜色",
+    "{0}: pulse para elegir color",
+    "{0}: clique para escolher a cor"
+  ],
+  "{0}: click for custom color or “{1}”": [
+    "{0}: щелчок — свой цвет или «{1}»",
+    "{0}：点击选择颜色或“{1}”",
+    "{0}: pulse para color propio o «{1}»",
+    "{0}: clique para cor própria ou «{1}»"
+  ],
+  "From gradient palette": [
+    "Из палитры градиента",
+    "来自渐变调色板",
+    "De la paleta del gradiente",
+    "Da paleta do gradiente"
+  ],
+  "Default": [
+    "По умолчанию",
+    "默认",
+    "Predeterminado",
+    "Padrão"
+  ],
+  "Administrator rights not granted; CPU sensor and OpenRGB will request them separately.": [
+    "Права администратора не выданы: датчик CPU и OpenRGB будут запрашивать их отдельно.",
+    "未授予管理员权限；CPU 传感器和 OpenRGB 将分别请求权限。",
+    "Sin permisos de administrador; el sensor CPU y OpenRGB los solicitarán por separado.",
+    "Sem privilégios de administrador; o sensor CPU e o OpenRGB os solicitarão separadamente."
+  ],
+  "Startup can only be enabled from the built application.": [
+    "Автозапуск включается только из собранной программы.",
+    "只能从已编译的应用启用自动启动。",
+    "El inicio automático solo se activa desde la aplicación compilada.",
+    "A inicialização automática só pode ser ativada pelo aplicativo compilado."
+  ],
+  "Task Scheduler could not create startup task: ": [
+    "Планировщик заданий не создал автозапуск: ",
+    "任务计划程序无法创建启动任务：",
+    "El Programador de tareas no pudo crear el inicio: ",
+    "O Agendador de Tarefas não pôde criar a inicialização: "
+  ],
+  "Startup: scheduled task with highest privileges.": [
+    "Автозапуск: задание планировщика с наивысшими правами.",
+    "自动启动：具有最高权限的计划任务。",
+    "Inicio: tarea programada con privilegios máximos.",
+    "Inicialização: tarefa agendada com privilégios máximos."
+  ],
+  "Startup enabled: launches as administrator at Windows sign-in without a UAC prompt.": [
+    "Автозапуск включён: при входе в Windows программа запустится с правами администратора без запроса UAC.",
+    "自动启动已启用：登录 Windows 后以管理员权限启动，无 UAC 提示。",
+    "Inicio activado: se ejecuta como administrador al entrar en Windows sin aviso UAC.",
+    "Inicialização ativada: executa como administrador ao entrar no Windows sem aviso UAC."
+  ],
+  "Startup enabled without administrator rights: Windows asks permission at sign-in. Run as administrator and enable startup again to avoid this.": [
+    "Автозапуск включён без прав администратора: при каждом входе Windows спросит разрешение. Запустите программу с правами и включите автозапуск снова, чтобы запрос пропал.",
+    "自动启动已启用但无管理员权限：每次登录 Windows 都会请求许可。请以管理员身份运行后重新启用自动启动。",
+    "Inicio activado sin permisos de administrador: Windows pedirá permiso al entrar. Ejecute como administrador y vuelva a activarlo para evitar el aviso.",
+    "Inicialização ativada sem privilégios de administrador: o Windows pedirá permissão ao entrar. Execute como administrador e ative novamente para evitar o aviso."
+  ],
+  "Startup task could not be removed (administrator rights required): ": [
+    "Задание автозапуска не удалено (нужны права администратора): ",
+    "无法删除启动任务（需要管理员权限）：",
+    "No se pudo eliminar la tarea de inicio (requiere administrador): ",
+    "Não foi possível remover a tarefa de inicialização (requer administrador): "
+  ],
+  "Startup migrated to Task Scheduler; no UAC prompt at sign-in.": [
+    "Автозапуск переведён на планировщик заданий: запроса UAC при входе больше не будет.",
+    "自动启动已迁移到任务计划程序，登录时不再出现 UAC 提示。",
+    "Inicio migrado al Programador de tareas; sin aviso UAC al entrar.",
+    "Inicialização migrada para o Agendador de Tarefas; sem aviso UAC ao entrar."
+  ],
+  "USB device is not permitted.": [
+    "USB-устройство вне разрешённого списка.",
+    "USB 设备不在允许列表中。",
+    "Dispositivo USB no permitido.",
+    "Dispositivo USB não permitido."
+  ],
+  "Packet size does not match USB device family.": [
+    "Размер пакета не соответствует семейству USB.",
+    "数据包大小与 USB 设备系列不匹配。",
+    "El tamaño del paquete no coincide con la familia USB.",
+    "O tamanho do pacote não corresponde à família USB."
+  ],
+  "Could not open Lian Li USB. Close L-Connect 3.": [
+    "Не удалось открыть USB Lian Li. Закройте L-Connect 3.",
+    "无法打开 Lian Li USB。请关闭 L-Connect 3。",
+    "No se pudo abrir el USB Lian Li. Cierre L-Connect 3.",
+    "Não foi possível abrir o USB Lian Li. Feche o L-Connect 3."
+  ],
+  "Expected USB endpoints 0x81/0x01 not found.": [
+    "Нет ожидаемых USB-каналов 0x81/0x01.",
+    "未找到预期的 USB 端点 0x81/0x01。",
+    "No se encontraron los extremos USB 0x81/0x01 esperados.",
+    "Endpoints USB 0x81/0x01 esperados não encontrados."
+  ],
+  "Endpoint clearing is allowed only for Lian Li screens.": [
+    "Очистка endpoint разрешена только для экранов Lian Li.",
+    "仅允许清除 Lian Li 屏幕端点。",
+    "La limpieza de extremos solo se permite en pantallas Lian Li.",
+    "A limpeza de endpoints só é permitida em telas Lian Li."
+  ],
+  "USB packet must contain {0} bytes.": [
+    "USB-пакет должен содержать {0} байт.",
+    "USB 数据包必须包含 {0} 字节。",
+    "El paquete USB debe contener {0} bytes.",
+    "O pacote USB deve conter {0} bytes."
+  ],
+  "Invalid USB transaction length.": [
+    "Недопустимая длина USB-транзакции.",
+    "USB 传输长度无效。",
+    "Longitud de transacción USB inválida.",
+    "Comprimento de transação USB inválido."
+  ],
+  "Incomplete USB write: {0}/{1}. Packet is not retried automatically.": [
+    "Неполная запись USB: {0}/{1}. Пакет не пересылается автоматически.",
+    "USB 写入不完整：{0}/{1}。不会自动重发。",
+    "Escritura USB incompleta: {0}/{1}. No se reenvía automáticamente.",
+    "Gravação USB incompleta: {0}/{1}. Não há reenvio automático."
+  ],
+  "USB channel is busy with another application.": [
+    "USB-канал занят другим приложением.",
+    "USB 通道被其他应用占用。",
+    "Canal USB ocupado por otra aplicación.",
+    "Canal USB ocupado por outro aplicativo."
+  ],
+  "Excess USB response data.": [
+    "Избыточный ответ USB.",
+    "USB 响应数据过多。",
+    "Exceso de datos en la respuesta USB.",
+    "Dados em excesso na resposta USB."
+  ],
+  "Settings": [
+    "Настройки",
+    "设置",
+    "Ajustes",
+    "Configurações"
+  ],
+  "Interface language": [
+    "Язык интерфейса",
+    "界面语言",
+    "Idioma de la interfaz",
+    "Idioma da interface"
+  ],
+  "Follow Windows": [
+    "Как в Windows",
+    "跟随 Windows",
+    "Según Windows",
+    "Seguir Windows"
+  ],
+  "Language changes take effect after restarting the app. Lighting and cooling settings are preserved.": [
+    "Язык применяется после перезапуска приложения. Настройки подсветки и охлаждения сохраняются.",
+    "重启应用后语言生效。灯光和散热设置将保留。",
+    "El idioma cambia al reiniciar la aplicación. Se conservan los ajustes de iluminación y refrigeración.",
+    "O idioma muda após reiniciar o aplicativo. As configurações de iluminação e refrigeração são mantidas."
+  ],
+  "Language saved. Restart the app when convenient.": [
+    "Язык сохранён. Перезапустите приложение, когда будет удобно.",
+    "语言已保存。请在方便时重启应用。",
+    "Idioma guardado. Reinicie la aplicación cuando le convenga.",
+    "Idioma salvo. Reinicie o aplicativo quando for conveniente."
+  ],
+  "Choose the LCD fan position on the canvas.": [
+    "Выберите позицию LCD-вентилятора на холсте.",
+    "请选择 LCD 风扇在画布上的位置。",
+    "Elija la posición del ventilador LCD en el lienzo.",
+    "Escolha a posição da ventoinha LCD na tela de mapeamento."
+  ],
+  "No mapping scene available.": [
+    "Нет сцены маппинга.",
+    "没有可用的映射场景。",
+    "No hay ninguna escena de mapeo disponible.",
+    "Nenhuma cena de mapeamento disponível."
+  ],
+  "Pump position on the canvas": [
+    "Положение помпы на холсте",
+    "泵在画布上的位置",
+    "Posición de la bomba en el lienzo",
+    "Posição da bomba na tela de mapeamento"
+  ],
+  "Shift + click adds or removes a fan; drag a box to select; double-click selects the whole group; drag to move; drag frame corners to resize.": [
+    "Shift + щелчок — добавить или убрать вентилятор; рамка ЛКМ — выделить; двойной щелчок — вся группа; перетаскивание — двигать; уголки рамки — размер.",
+    "Shift + 单击：添加或移除风扇；拖出方框：选择；双击：选择整组；拖动：移动；拖动边框角：调整大小。",
+    "Mayús + clic añade o quita un ventilador; arrastre un recuadro para seleccionar; doble clic selecciona todo el grupo; arrastre para mover; las esquinas del marco cambian el tamaño.",
+    "Shift + clique adiciona ou remove uma ventoinha; arraste um retângulo para selecionar; clique duplo seleciona o grupo inteiro; arraste para mover; os cantos do quadro mudam o tamanho."
+  ],
+  "Red": [
+    "Красный",
+    "红色",
+    "Rojo",
+    "Vermelho"
+  ],
+  "Orange": [
+    "Оранжевый",
+    "橙色",
+    "Naranja",
+    "Laranja"
+  ],
+  "Yellow": [
+    "Жёлтый",
+    "黄色",
+    "Amarillo",
+    "Amarelo"
+  ],
+  "Lime": [
+    "Лаймовый",
+    "青柠色",
+    "Lima",
+    "Verde-lima"
+  ],
+  "Green": [
+    "Зелёный",
+    "绿色",
+    "Verde",
+    "Verde"
+  ],
+  "Mint": [
+    "Мятный",
+    "薄荷绿",
+    "Menta",
+    "Menta"
+  ],
+  "Turquoise": [
+    "Бирюзовый",
+    "青绿色",
+    "Turquesa",
+    "Turquesa"
+  ],
+  "Azure": [
+    "Голубой",
+    "天蓝色",
+    "Celeste",
+    "Azul-celeste"
+  ],
+  "Blue": [
+    "Синий",
+    "蓝色",
+    "Azul",
+    "Azul"
+  ],
+  "Violet": [
+    "Фиолетовый",
+    "紫罗兰色",
+    "Violeta",
+    "Violeta"
+  ],
+  "Magenta": [
+    "Пурпурный",
+    "品红色",
+    "Magenta",
+    "Magenta"
+  ],
+  "Pink": [
+    "Розовый",
+    "粉色",
+    "Rosa",
+    "Rosa"
+  ],
+  "Neutral": [
+    "Нейтральный",
+    "中性色",
+    "Neutro",
+    "Neutro"
+  ],
+  "Vivid": [
+    "Сочный",
+    "鲜艳",
+    "Intenso",
+    "Vivo"
+  ],
+  "Neon": [
+    "Неон",
+    "霓虹",
+    "Neón",
+    "Néon"
+  ],
+  "Deep": [
+    "Глубокий",
+    "深邃",
+    "Profundo",
+    "Profundo"
+  ],
+  "Pastel": [
+    "Пастель",
+    "柔和",
+    "Pastel",
+    "Pastel"
+  ],
+  "Pearl": [
+    "Жемчужный",
+    "珍珠色",
+    "Perla",
+    "Pérola"
+  ],
+  "Ice": [
+    "Ледяной",
+    "冰色",
+    "Hielo",
+    "Gelo"
+  ],
+  "Warm light": [
+    "Тёплый свет",
+    "暖光",
+    "Luz cálida",
+    "Luz quente"
+  ],
+  "Graphite": [
+    "Графитовый",
+    "石墨色",
+    "Grafito",
+    "Grafite"
+  ],
+  "Presets": [
+    "Пресеты",
+    "预设",
+    "Preajustes",
+    "Predefinições"
+  ],
+  "Recovering radio address {0} → slot {1}…": [
+    "Восстановление радиоадреса {0} → слот {1}…",
+    "正在恢复无线地址 {0} → 插槽 {1}…",
+    "Restaurando dirección de radio {0} → ranura {1}…",
+    "Restaurando endereço de rádio {0} → slot {1}…"
+  ],
+  "Radio address {0} recovered: slot {1}.": [
+    "Радиоадрес {0} восстановлен: слот {1}.",
+    "无线地址 {0} 已恢复：插槽 {1}。",
+    "Dirección de radio {0} restaurada: ranura {1}.",
+    "Endereço de rádio {0} restaurado: slot {1}."
+  ],
+  "Could not recover radio address {0}: {1}": [
+    "Не удалось восстановить радиоадрес {0}: {1}",
+    "无法恢复无线地址 {0}：{1}",
+    "No se pudo restaurar la dirección de radio {0}: {1}",
+    "Não foi possível restaurar o endereço de rádio {0}: {1}"
+  ],
+  "{0}: {1}, {2} fans, {3} LEDs/fan": [
+    "{0}: {1}, {2} вент., {3} LED/вент.",
+    "{0}：{1}，{2} 个风扇，每个风扇 {3} LED",
+    "{0}: {1}, {2} ventiladores, {3} LED/ventilador",
+    "{0}: {1}, {2} ventoinhas, {3} LEDs/ventoinha"
+  ],
+  "Unknown fan model in the profile.": [
+    "Неизвестная модель вентилятора в профиле.",
+    "配置文件中有未知的风扇型号。",
+    "Modelo de ventilador desconocido en el perfil.",
+    "Modelo de ventoinha desconhecido no perfil."
+  ],
+  "The group contains fans of different models.": [
+    "В группе вентиляторы разных моделей.",
+    "该组包含不同型号的风扇。",
+    "El grupo contiene ventiladores de distintos modelos.",
+    "O grupo contém ventoinhas de modelos diferentes."
+  ],
+  "Unknown fan model: speed is not set.": [
+    "Неизвестная модель вентиляторов: скорость не задаётся.",
+    "未知风扇型号：不设置转速。",
+    "Modelo de ventilador desconocido: no se ajusta la velocidad.",
+    "Modelo de ventoinha desconhecido: a velocidade não é definida."
+  ]
+}

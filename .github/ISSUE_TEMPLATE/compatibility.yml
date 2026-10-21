@@ -1,0 +1,42 @@
+name: Compatibility report
+description: Tell us how the app works with your fans and controller
+labels: [compatibility]
+body:
+  - type: input
+    id: fans
+    attributes:
+      label: Fan models and group sizes
+      placeholder: "e.g. 3× SL Wireless 120 + 2× SL Wireless 120 LCD, groups of 3 and 2"
+    validations:
+      required: true
+  - type: input
+    id: controller
+    attributes:
+      label: Controller and firmware
+      placeholder: "e.g. L-Wireless V1 (0416:8040), firmware from L-Connect"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and Windows version
+      placeholder: "0.13.0, Windows 11 24H2"
+    validations:
+      required: true
+  - type: checkboxes
+    id: works
+    attributes:
+      label: What works
+      options:
+        - label: Groups are found after Connect USB
+        - label: Gradient / effect plays on the fans
+        - label: LED order matches the canvas
+        - label: Fan speed control
+        - label: Pump ring / pump speed
+        - label: LCD screens
+        - label: OpenRGB devices
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What looked wrong? Videos and diagnostics.json (from diagnose.cmd) help. Remove MAC addresses if you do not want to publish them.

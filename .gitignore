@@ -1,0 +1,22 @@
+# Build output and local tools
+.tools/
+.dotnet-home/
+**/bin/
+**/obj/
+dist/
+*.user
+
+# Self-test samples and local diagnostics (may contain your hardware addresses)
+artifacts/
+diagnostics.json
+*-diagnostics.json
+
+# Personal profiles and notes
+profiles/
+output/
+tmp/
+HANDOFF-*.md
+
+# Native build by-products (contain local build paths)
+windows/native/*.lib
+windows/native/*.pdb
